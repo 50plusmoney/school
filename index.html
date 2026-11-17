@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>50+Money School</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Playfair+Display:ital,wght@1,600;1,700&family=Noto+Serif+JP:wght@700;900&display=swap">
+<style>
+:root{--navy:#13264F;--white:#FFFFFF;--cream:#FFF9E3;--yellow:#FFD84D;--mark:#FFE98A;--pale:#FFF1B0;--line:#EADFB8;--lg:#06C755;--shadow:0 10px 28px rgba(19,38,79,.08);
+--mi:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;
+--pf:"Playfair Display","Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;
+--go:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+--gold:linear-gradient(100deg,#E7BE4A,#F8E39A 45%,#D8A62A);--goldc:#E0B848;
+--wave-a:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V20C150 2 300 2 450 16S750 38 900 20 1150 6 1200 14V40Z'/%3E%3C/svg%3E");
+--wave-b:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V14C60 8 150 4 300 20S600 34 750 18 1100 0 1200 20V40Z'/%3E%3C/svg%3E");
+--brush:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 16' preserveAspectRatio='none'%3E%3Cpath d='M0 8C6 5 40 10 100 6c45-3 80-3 100 0v3c-20 3-60 3-100 5C50 15 10 13 0 11z' fill='%23FFD84D'/%3E%3C/svg%3E");
+--arc:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 24' preserveAspectRatio='none'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23E7BE4A' stop-opacity='0'/%3E%3Cstop offset='.3' stop-color='%23E7BE4A'/%3E%3Cstop offset='.6' stop-color='%23F8E39A'/%3E%3Cstop offset='1' stop-color='%23D8A62A' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M2 6C120 22 280 22 398 4' fill='none' stroke='url(%23g)' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+--spark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none' stroke='%2313264F' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M22 36 8 29M26 26 15 12M35 22 34 5'/%3E%3C/svg%3E");
+--dots:radial-gradient(#E0B848 2px,transparent 2.6px) 0 0/12px 12px;
+--wmask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 3C20 0 38 7 56 3S86 0 100 4V90C80 100 66 82 46 91S16 98 0 90Z'/%3E%3C/svg%3E");
+--check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2310244A' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E")}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sl *,.sl *::before,.sl *::after{transition:none!important;animation:none!important}}
+body{margin:0;background:#FFFFFF}
+.sl{font-family:var(--go);font-weight:700;font-size:19px;line-height:1.95;color:var(--navy);letter-spacing:.02em;word-break:keep-all;line-break:strict;overflow-wrap:anywhere;overflow-x:hidden;overflow-x:clip;-webkit-font-smoothing:antialiased;position:relative}
+.sl *,.sl *::before,.sl *::after{box-sizing:border-box}
+.sl :where(h1,h2,h3,h4,p,ul,ol,dl,dd,figure,table){margin:0;padding:0}
+.sl ul,.sl ol{list-style:none}
+.sl img{display:block;max-width:100%;height:auto}
+.sl sup{font-size:1em;font-weight:inherit;vertical-align:.36em;line-height:0;margin:0 .05em 0 .02em}
+.sl .nw{white-space:nowrap}
+.sl .ph{display:inline-block;max-width:100%;text-wrap:balance}
+.sl .vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.sl a{color:inherit}
+.sl :focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+.sl .navy :focus-visible,.sl .apply :focus-visible,.sl .ft :focus-visible,.sl .ask :focus-visible{outline-color:var(--yellow)}
+.sl [hidden]{display:none!important}
+
+/* 幅と余白（スマホと中間の幅は1列。読む列は最大640px） */
+.in{width:100%;max-width:640px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.sec{position:relative;padding-top:84px;padding-bottom:76px;--bg:#FFFFFF;background:var(--bg)}
+.sec>*{position:relative;z-index:1}
+.w{--bg:#FFFFFF}
+.c{--bg:#FFF9E3;background-color:#FFF9E3;background-image:url(images/bg_wash.jpg);background-size:cover;background-position:center;background-blend-mode:multiply}
+.sec::before{content:"";position:absolute;left:0;right:0;top:1px;height:30px;transform:translateY(-100%);background:var(--bg);-webkit-mask:var(--wave-a) 0 0/100% 100% no-repeat;mask:var(--wave-a) 0 0/100% 100% no-repeat;z-index:1;pointer-events:none}
+.sec:nth-of-type(even)::before{-webkit-mask-image:var(--wave-b);mask-image:var(--wave-b)}
+.sec.w::after,.sec.c::after{content:"";position:absolute;z-index:0;pointer-events:none;width:min(58vw,300px);aspect-ratio:1;mix-blend-mode:multiply;background-repeat:no-repeat;background-size:contain}
+.sec.w::after{top:0;right:0;background-image:url(images/deco_leaf_tr.jpg);background-position:right top;-webkit-mask-image:radial-gradient(circle at 100% 0,#000 35%,transparent 70%);mask-image:radial-gradient(circle at 100% 0,#000 35%,transparent 70%)}
+.sec.c::after{bottom:0;left:0;background-image:url(images/deco_leaf_bl.jpg);background-position:left bottom;-webkit-mask-image:radial-gradient(circle at 0 100%,#000 35%,transparent 70%);mask-image:radial-gradient(circle at 0 100%,#000 35%,transparent 70%)}
+
+/* カウントダウン（申し込みボタンの上） */
+.cd{margin-top:26px;text-align:center;color:var(--navy)}
+.cd-fb,.cd-end{font-weight:900;font-size:17px;line-height:1.7}
+.cd-h{font-weight:900;font-size:16px;line-height:1.5;letter-spacing:.06em}
+.cd-n{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:8px}
+.cd-b{display:flex;align-items:baseline;justify-content:center;gap:1px;min-width:0;background:#FFFFFF;color:var(--navy);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:8px 2px 9px;line-height:1}
+.cd-b b{font-weight:900;font-size:clamp(25px,7.8vw,36px);line-height:1.1;font-variant-numeric:tabular-nums;letter-spacing:0}
+.cd-b i{font-style:normal;font-weight:700;font-size:13px;letter-spacing:0}
+.cd-end{padding:14px 12px;background:#FFFFFF;border-radius:14px;color:var(--navy)}
+.cd + .btn{margin-top:14px}
+.apply .cd,.apply .cd-fb{color:#FFFFFF}
+
+/* ボタン（LINEのような黄緑） */
+.sl .btn{color:#FFFFFF}
+.btn{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:14px;min-height:64px;width:100%;padding:10px 20px 10px 28px;background:var(--lg);color:#FFFFFF;border-radius:999px;font-family:var(--go);font-weight:900;font-size:19px;line-height:1.4;text-decoration:none;text-align:center;box-shadow:0 8px 18px rgba(6,199,85,.35);text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.btn>span{position:relative;z-index:1;min-width:0}
+.btn svg{position:relative;z-index:1;flex:none;box-sizing:content-box;width:20px;height:20px;padding:8px;border-radius:50%;background:#FFFFFF;stroke:var(--lg)}
+.btn::before{content:"";position:absolute;z-index:0;top:0;bottom:0;left:0;width:36%;background:linear-gradient(100deg,transparent 0,rgba(255,255,255,.55) 50%,transparent 100%);transform:translateX(-160%) skewX(-20deg);pointer-events:none}
+@media (prefers-reduced-motion:no-preference){
+ .btn{animation:btn-pulse 1.8s ease-in-out infinite}
+ .btn::before{animation:btn-shine 3s ease-in-out infinite}
+}
+@keyframes btn-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+@keyframes btn-shine{0%{transform:translateX(-160%) skewX(-20deg)}40%,100%{transform:translateX(420%) skewX(-20deg)}}
+.btn:hover{filter:brightness(1.04)}
+.btn:active{animation:none;transform:translateY(3px) scale(.985);box-shadow:0 3px 8px rgba(6,199,85,.35)}
+
+/* 最初の画面 */
+.fv{position:relative;background:linear-gradient(180deg,#FEF1A0 0,#FFFFFF 12%,#FFFFFF 62%,#FFF6C4 100%)}
+.fv .pic{display:block;width:100%;max-width:560px;margin:0 auto}
+.fv .pic img{width:100%;height:auto;-webkit-mask-image:linear-gradient(180deg,#000 93%,transparent);mask-image:linear-gradient(180deg,#000 93%,transparent)}
+.fv .fc{background:linear-gradient(180deg,#FFF6C4 0,#FFF9E3 140px);padding-top:4px;padding-bottom:56px;margin-top:-1px}
+.fv .in{max-width:560px}
+
+/* タイトルと黄色の筆の線（文字のすぐ下。折り返した各行の幅ぴったり） */
+.ul{background:var(--brush) 0 100%/calc(100% + .1em) .3em no-repeat;padding:0 .05em .14em;margin:0 -.05em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.t{font-family:var(--mi);font-weight:900;font-size:29px;line-height:1.55;color:var(--navy);text-wrap:balance;letter-spacing:.02em}
+.t.big{font-size:32px}
+.flow{margin-top:34px}
+.flow > * + *{margin-top:1.55em}
+.flow > .grp + .grp,.flow > .grp + .em,.flow > .em + .grp{margin-top:2em}
+.grp > p + p{margin-top:.5em}
+.em{font-weight:900;font-size:21px;line-height:1.95;color:var(--navy)}
+.gd{background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .04em}
+.mk{background:linear-gradient(transparent 60%,var(--mark) 60%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .12em}
+.sub{display:block;width:fit-content;max-width:100%;font-family:var(--mi);font-weight:700;font-size:22px;line-height:1.6;color:#FFFFFF;background:var(--navy);padding:9px 34px 9px 30px;clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%);text-wrap:balance}
+.h4{display:block;width:fit-content;max-width:100%;font-family:var(--mi);font-weight:700;font-size:21px;line-height:1.6;color:#FFFFFF;background:var(--navy);padding:7px 32px 7px 28px;clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%)}
+.small{font-weight:700;font-size:16px;line-height:1.8;color:var(--navy)}
+.small.fine{font-size:13px;font-weight:500;line-height:1.7;color:#5B6577}
+.mname{display:inline;font-weight:900;font-size:22px;line-height:1.9;background:linear-gradient(transparent 50%,var(--mark) 50%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .15em}
+.grp > p.mn{margin-top:.5em}
+
+/* 写真の型 */
+.photo{position:relative;margin:34px auto 0;width:100%}
+.photo img{display:block;width:100%;height:auto;object-fit:cover}
+.photo + .flow{margin-top:40px}
+.t1{width:min(78%,340px)}
+.t1 img{position:relative;z-index:1;aspect-ratio:4/5;border-radius:999px 999px 24px 24px;box-shadow:0 12px 28px rgba(19,38,79,.10)}
+.t1::before{content:"";position:absolute;inset:0;transform:translate(14px,14px);border-radius:999px 999px 24px 24px;background:var(--mark);z-index:0}
+.t1::after{content:"";position:absolute;left:-20px;bottom:30px;width:76px;height:76px;border-radius:50%;background:var(--dots);z-index:0}
+.t2{margin-top:0;z-index:0}
+.t2::before{content:"";position:absolute;inset:-8% -10%;background:radial-gradient(ellipse at 50% 50%,#FFF0A8 0,rgba(255,240,168,0) 68%);z-index:0}
+.t2 img{position:relative;z-index:1;aspect-ratio:4/3.2;-webkit-mask-image:radial-gradient(ellipse 66% 62% at 50% 50%,#000 45%,transparent 100%);mask-image:radial-gradient(ellipse 66% 62% at 50% 50%,#000 45%,transparent 100%)}
+.s2 .in>.t,.s5 .in>.t{background:#FFFFFF;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:22px 22px 24px;margin-top:-52px;position:relative;z-index:3}
+.t3{width:min(76%,290px);aspect-ratio:1}
+.t3 img{position:relative;z-index:2;width:100%;height:100%;border-radius:50%;border:6px solid #FFFFFF;box-shadow:0 10px 26px rgba(19,38,79,.12)}
+.t3::before{content:"";position:absolute;inset:0;transform:translate(14px,10px);border-radius:50%;border:6px solid var(--yellow);z-index:1}
+.t3::after{content:"";position:absolute;width:46px;height:46px;border-radius:50%;background:var(--yellow);left:-8px;top:12px;z-index:3}
+.t4{width:calc(100% - 28px);margin-left:auto;margin-right:auto}
+.t4 img{position:relative;z-index:1;aspect-ratio:4/3;border-radius:24px;box-shadow:0 12px 28px rgba(19,38,79,.10)}
+.t4::before{content:"";position:absolute;inset:0;transform:translate(-12px,-12px);border:2px solid var(--navy);border-radius:24px;z-index:0}
+.t4::after{content:"";position:absolute;right:-6px;bottom:-10px;width:56%;height:18px;background:var(--brush) 0 0/100% 100% no-repeat;z-index:2}
+.s5{padding-top:0}
+.s5::before{display:none}
+.t5{margin:0;width:100%;z-index:1}
+.t5 img{aspect-ratio:4/3.1;-webkit-mask:var(--wmask) 0 0/100% 100% no-repeat;mask:var(--wmask) 0 0/100% 100% no-repeat}
+.s5 .in{position:relative;z-index:2}
+
+/* 悩み・比べる箇条 */
+.check{display:grid;gap:12px}
+.check li{display:flex;gap:14px;align-items:flex-start;background:#FFFFFF;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:14px 18px}
+.check li>span:last-child{min-width:0}
+.ckc{flex:none;width:30px;height:30px;border-radius:50%;background:var(--yellow) var(--check) center/18px 18px no-repeat;margin-top:5px}
+.quotes{display:grid;gap:12px}
+.quotes li{display:flex;align-items:center;justify-content:flex-start;text-align:left;min-height:60px;padding:12px 20px;border-radius:20px;background:#FFFFFF;border:1px solid var(--line);box-shadow:var(--shadow);font-weight:700;font-size:19px;line-height:1.6;color:var(--navy)}
+.quotes li>span{min-width:0}
+
+/* 黄色い丸の一覧（4・12）／チェックの軽い一覧（13） */
+.dots{display:grid;gap:4px}
+.dots li{position:relative;padding-left:26px;line-height:1.8}
+.dots li::before{content:"";position:absolute;left:3px;top:calc(.9em - 5.5px);width:11px;height:11px;border-radius:50%;background:var(--yellow)}
+.ticks{display:grid;gap:6px}
+.ticks li{display:flex;align-items:flex-start;gap:8px;font-size:18px;line-height:1.7;letter-spacing:0}
+.ticks li>span:last-child{min-width:0}
+.tk{flex:none;width:20px;height:20px;border-radius:50%;background:var(--yellow) var(--check) center/13px 13px no-repeat;margin-top:5px}
+
+/* 吹き出し（みんなの悩み・おしゃべり） */
+.bubbles,.talk{display:flex;flex-direction:column;padding:14px 0 18px}
+.bubbles li,.talk li{position:relative;width:fit-content;max-width:86%;padding:14px 22px;border-radius:26px;background:#FFFFFF;color:var(--navy);font-weight:700;font-size:19px;line-height:1.6;filter:drop-shadow(1px 0 0 #E2CF8C) drop-shadow(-1px 0 0 #E2CF8C) drop-shadow(0 1px 0 #E2CF8C) drop-shadow(0 -1px 0 #E2CF8C) drop-shadow(0 8px 10px rgba(19,38,79,.10))}
+.bubbles li>span,.talk li>span{display:block;min-width:0}
+.bubbles li::after,.talk li::after{content:"";position:absolute;width:28px;height:18px;background:inherit}
+.bubbles{max-width:520px;margin-left:auto;margin-right:auto;gap:14px;padding:4px 0 22px}
+.bubbles li{max-width:84%}
+.bubbles li:nth-child(odd){align-self:flex-start}
+.bubbles li:nth-child(even){align-self:flex-end}
+.bubbles li:nth-child(2){background:var(--pale)}
+.bubbles li:nth-child(3){background:var(--navy);color:#FFFFFF;filter:drop-shadow(0 8px 10px rgba(19,38,79,.18))}
+.bubbles li::after{width:26px;height:14px;bottom:-12px}
+.bubbles li:nth-child(odd)::after{left:28px;clip-path:polygon(0 0,100% 0,0 100%)}
+.bubbles li:nth-child(even)::after{right:28px;clip-path:polygon(0 0,100% 0,100% 100%)}
+.talk{gap:20px}
+.talk li:nth-child(odd){align-self:flex-start}
+.talk li:nth-child(odd)::after{bottom:-15px;left:30px;clip-path:polygon(0 0,100% 0,0 100%)}
+.talk li:nth-child(even){align-self:flex-end;background:var(--pale)}
+.talk li:nth-child(even)::after{bottom:-15px;right:30px;clip-path:polygon(0 0,100% 0,100% 100%)}
+.talk li:nth-child(3){margin-left:6%}
+.talk li:nth-child(2){margin-right:3%}
+
+/* カード */
+.cards{display:grid;gap:16px}
+.card{position:relative;isolation:isolate;background:#FFFFFF;border-radius:20px;padding:24px 22px 26px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.badge{display:inline-block;background:var(--navy);color:#FFFFFF;font-family:var(--mi);padding:3px 30px 3px 26px;font-size:18px;font-weight:700;line-height:1.7;letter-spacing:.06em;clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%)}
+.badge.st{font-variant-numeric:lining-nums;font-family:var(--pf);font-style:italic;font-weight:700;letter-spacing:.08em}
+.card h3{margin-top:14px;font-family:var(--mi);font-weight:900;font-size:23px;line-height:1.6;color:var(--navy)}
+.sess .card h3{margin-top:14px;font-size:23px;line-height:1.6}
+.card p{margin-top:8px}
+.card p + p{margin-top:.5em}
+.sess .card h3 + p{margin-top:14px}
+.card .done{margin-top:16px;background:var(--mark);color:var(--navy);border-radius:14px;padding:12px 16px;font-weight:900;font-size:18px;line-height:1.75}
+.pill{display:inline-block;margin-top:12px;background:var(--navy);color:#FFFFFF;padding:3px 26px 3px 22px;font-size:16px;font-weight:700;line-height:1.8;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.card .pill + p{margin-top:12px}
+.num{font-variant-numeric:lining-nums;position:relative;display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;font-family:var(--pf);font-style:italic;font-weight:700;font-size:38px;line-height:1;color:var(--navy);z-index:0}
+.num::before{content:"";position:absolute;left:8px;top:6px;width:48px;height:48px;border-radius:50%;background:var(--mark);z-index:-1}
+.mcard h3{margin-top:8px}
+.mcard .one{margin-top:6px;font-weight:900;color:var(--navy)}
+.mem{display:grid;gap:16px}
+.mem li{position:relative;isolation:isolate;display:grid;grid-template-columns:60px minmax(0,1fr);gap:0 16px;background:#FFFFFF;border:1px solid var(--line);border-radius:20px;padding:20px 20px 22px 16px;box-shadow:var(--shadow)}
+.mem h3{font-family:var(--mi);font-weight:900;font-size:22px;line-height:1.6;color:var(--navy);padding-top:4px}
+.mem p{margin-top:6px}
+.mem .num{grid-row:1/3}
+
+/* 変化の表 */
+.chg{width:100%;border-collapse:collapse}
+.chg thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.chg,.chg tbody,.chg tr,.chg td{display:block}
+.chg tr{background:#FFFFFF;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
+.chg tr + tr{margin-top:16px}
+.chg td{font-weight:700;color:var(--navy);line-height:1.75;font-size:19px}
+.chg td::before{content:attr(data-l);display:block;width:fit-content;max-width:100%;font-size:13.5px;font-weight:700;line-height:1.6;color:var(--navy);border:1px solid var(--navy);border-radius:999px;padding:1px 12px;margin-bottom:8px;letter-spacing:.04em}
+.chg td:first-child{background:#FFFFFF;padding:16px 20px 0}
+.chg td:last-child{background:#FFF1B0;padding:34px 20px 18px}
+.chg .arw{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;width:42px;height:42px;margin:10px auto -21px;border-radius:50%;background:var(--navy);box-shadow:0 4px 10px rgba(19,38,79,.2)}
+.chg .arw svg{width:22px;height:22px;stroke:#fff}
+
+/* 準備中の枠 */
+.frame{border:2px dashed var(--navy);border-radius:20px;padding:22px 20px 26px;display:flex;flex-direction:column;align-items:flex-start;gap:10px;background:rgba(255,255,255,.7)}
+.tag{display:inline-block;background:var(--yellow);color:var(--navy);border-radius:999px;padding:2px 14px;font-size:15px;font-weight:700;line-height:1.8}
+.frame p{font-weight:700;min-width:0}
+
+/* 参加費用 */
+.pbox{position:relative;background:var(--navy);color:#FFFFFF;border-radius:24px;padding:40px 22px 36px;box-shadow:0 14px 34px rgba(19,38,79,.22)}
+.pbox::before{content:"";position:absolute;inset:8px;border:1px solid var(--goldc);border-radius:17px;pointer-events:none}
+.pbox > *{position:relative}
+.pbox{z-index:2}
+.pbox .ptl{font-family:var(--mi);font-weight:900;font-size:30px;line-height:1.5;color:#FFFFFF;margin:0 0 26px}
+.pbox h3{font-family:var(--mi);font-weight:900;font-size:23px;line-height:1.6;color:#FFFFFF;text-wrap:balance}
+.pbox .psub{margin-top:14px;font-weight:700;font-size:19px;line-height:1.7}
+.pbox .pn{margin-top:22px;font-size:18px;line-height:1.8;font-weight:700}
+.pbox .pdown{display:flex;align-items:center;gap:14px;margin-top:14px}
+.pbox .parw{flex:none;width:52px;height:68px;fill:var(--yellow)}
+.pbox .poff{position:relative;flex:1;min-width:0;background:var(--yellow);color:var(--navy);border-radius:16px;padding:10px 16px;font-weight:900;font-size:19px;line-height:1.55}
+.pbox .poff::before{content:"";position:absolute;left:-12px;top:50%;width:14px;height:22px;margin-top:-11px;background:var(--yellow);clip-path:polygon(100% 0,0 50%,100% 100%)}
+.pbox .pl{margin-top:16px;font-weight:700;font-size:19px;line-height:1.7}
+.pbox .pbig{margin-top:4px;font-weight:900;color:var(--yellow);line-height:1.25;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 4px}
+.pbox .pbig .n{font-size:clamp(34px,11.5vw,60px);letter-spacing:.01em}
+.pbox .pbig .yen{font-size:clamp(22px,6.6vw,34px)}
+.pbox .pbig .tx{font-size:clamp(15px,4.4vw,22px)}
+.pbox .pzei{margin-top:4px;font-weight:700;font-size:19px;line-height:1.6;color:var(--yellow)}
+.pbox .yl,.apply .yl{text-decoration:underline;text-decoration-color:var(--yellow);text-decoration-thickness:3px;text-underline-offset:6px;text-decoration-skip-ink:none}
+.pbox .pde{margin-top:8px;font-weight:700;font-size:19px;line-height:1.7}
+.pbox .pdl{margin-top:18px;font-weight:700;font-size:18px;line-height:1.8;padding-top:16px;border-top:1px solid rgba(224,184,72,.55)}
+.pbox .pt{margin-top:20px;padding-top:20px;border-top:1px solid rgba(224,184,72,.55)}
+.pbox .pt p + p{margin-top:.5em}
+
+.photo.pp{width:min(70%,360px)}
+.photo.pp + .flow{margin-top:-30px}
+
+/* お支払い方法・2年目以降 */
+.pay{margin-top:20px;background:#FFFFFF;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:24px 20px 26px}
+.pay h3{font-family:var(--mi);font-weight:900;font-size:22px;line-height:1.6;color:var(--navy)}
+.pay p{margin-top:10px}
+.pay h3 + p{margin-top:14px}
+.pay p + p{margin-top:.5em}
+.pay .em{font-size:20px}
+.pay .pband{margin-top:18px;background:var(--navy);color:#FFFFFF;border-radius:14px;padding:12px 16px;font-weight:700;font-size:18px;line-height:1.7}
+.pay .pband .nw{color:var(--yellow);font-weight:900;font-size:20px}
+.ptbl{width:100%;margin-top:16px;border-collapse:collapse}
+.ptbl thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.ptbl,.ptbl tbody,.ptbl tr,.ptbl td{display:block}
+.ptbl tr{background:#FFFFFF;border:1px solid var(--line);border-radius:16px;overflow:hidden;padding:0 0 4px}
+.ptbl tr + tr{margin-top:10px}
+.ptbl td{padding:4px 16px;font-weight:700;font-size:18px;line-height:1.7}
+.ptbl td:first-child{background:var(--pale);padding-top:8px;padding-bottom:8px;margin-bottom:4px;font-weight:900;font-size:19px}
+.ptbl .p3{display:flex;flex-direction:column;align-items:flex-end}
+.ptbl td:not(:first-child){display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.ptbl td:not(:first-child)::before{content:attr(data-l);flex:none;font-size:15px;font-weight:700}
+.pay .pnote{margin-top:14px;font-size:16px;font-weight:700;line-height:1.8}
+.pay .pnote + .pnote{margin-top:4px}
+.pay .pfoot{margin-top:14px;font-weight:900;line-height:1.8}
+
+/* スケジュールの表 */
+.tbl{width:100%;border-collapse:collapse}
+.tbl thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tbl,.tbl tbody,.tbl tr,.tbl td{display:block}
+.tbl tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 12px;background:#FFFFFF;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:12px 16px;font-size:18px;line-height:1.7;font-weight:700}
+.tbl tr + tr{margin-top:10px}
+.tbl td:nth-child(1){grid-column:1/-1;grid-row:1;font-weight:900}
+.tbl td:nth-child(2){grid-column:1;grid-row:2}
+.tbl td:nth-child(3){grid-column:2;grid-row:2;text-align:right}
+.wd{font-weight:900}
+.rz{display:inline-block;background:var(--yellow);color:var(--navy);border-radius:999px;padding:0 .8em;line-height:1.65;font-weight:900}
+
+/* よくあるご質問 */
+.faq{display:grid;gap:14px}
+.faq details{background:#FFFFFF;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;display:flex;gap:12px;align-items:flex-start;padding:18px 16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq .q,.faq .a{flex:none;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--mi);font-weight:900;font-size:21px;line-height:1;margin-top:2px}
+.faq .q{background:var(--navy);color:#FFFFFF}
+.faq .a{background:var(--yellow);color:var(--navy)}
+.faq h3{flex:1;min-width:0;font-weight:700;font-size:19px;line-height:1.7;color:var(--navy)}
+.faq .pm{flex:none;position:relative;width:20px;height:20px;margin-top:8px}
+.faq .pm::before,.faq .pm::after{content:"";position:absolute;left:2px;right:2px;top:9px;height:2px;border-radius:1px;background:var(--navy)}
+.faq .pm::after{transform:rotate(90deg)}
+.faq details[open] .pm::after{display:none}
+.faq .ans{display:flex;gap:12px;align-items:flex-start;background:var(--pale);padding:16px 16px 20px}
+.faq .at{flex:1;min-width:0;padding-top:4px}
+.faq .at p + p{margin-top:.5em}
+
+/* 申し込み */
+.apply{--bg:#13264F;background:var(--navy);color:#FFFFFF;padding-top:96px;padding-bottom:112px}
+.apply::after{content:"";position:absolute;z-index:0;pointer-events:none;inset:62px 8px 48px;border:1px solid var(--goldc);border-radius:24px}
+.apply .in{padding-left:max(30px,env(safe-area-inset-left,0px));padding-right:max(30px,env(safe-area-inset-right,0px))}
+.apply .t{color:#FFFFFF}
+.apply .em,.apply .mk{color:#FFFFFF}
+.apply .am{margin-top:32px;font-weight:700;font-size:20px;line-height:1.7;color:#FFFFFF}
+.apply .aq{margin-top:12px;font-size:18px;line-height:1.8}
+.apply .asub{margin-top:24px;font-weight:700;font-size:21px;line-height:1.6;color:#FFFFFF}
+.apply .abig{margin-top:6px;font-weight:900;color:var(--yellow);line-height:1.3;letter-spacing:.01em;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 4px}
+.apply .abig .n{font-size:clamp(34px,11.5vw,58px)}
+.apply .abig .yen{font-size:clamp(22px,6.6vw,34px)}
+.apply .abig .tx{font-size:clamp(15px,4.4vw,22px)}
+.apply .azei{margin-top:4px;font-weight:700;font-size:20px;line-height:1.6;color:var(--yellow)}
+.apply .aoff{margin-top:10px;font-weight:700;font-size:19px;line-height:1.7}
+.apply dl{margin-top:28px;border-top:1px solid rgba(224,184,72,.55)}
+.apply .row{display:grid;grid-template-columns:7.6em minmax(0,1fr);gap:0 10px;padding:14px 0;border-bottom:1px solid rgba(224,184,72,.55)}
+.apply dt{font-weight:700;color:var(--yellow);font-size:16px;line-height:1.9}
+.apply dd{margin:0;font-size:17px;line-height:1.8;font-weight:700;min-width:0}
+.apply .btn{margin-top:32px}
+.apply .cd + .btn{margin-top:14px}
+.apply .cd{margin-top:32px}
+.apply .notes{margin-top:24px}
+.apply .notes p{font-size:16px;line-height:1.85;font-weight:700;color:#FFFFFF}
+.apply .notes p + p{margin-top:.6em}
+.apply .t3::before{border-color:var(--yellow)}
+
+/* 見せ場 */
+.show{text-align:center;padding-top:84px;padding-bottom:76px;--bg:#FFF1A0;background:linear-gradient(180deg,#FFF1A0 0,#FFFBE6 38%,#FFFBE6 62%,#FFF1A0 100%)}
+.show::after{display:none!important}
+.show .in{position:relative}
+.show .in::before{content:"";position:absolute;left:max(20px,6%);top:-34px;width:46px;height:46px;background:var(--spark) 0 0/100% 100% no-repeat}
+.show .in::after{content:"";display:block;width:min(80%,440px);height:24px;margin:26px auto 0;background:var(--arc) 0 0/100% 100% no-repeat}
+.show .a{font-family:var(--mi);font-weight:900;font-size:25px;line-height:1.65;color:var(--navy);text-wrap:balance}
+.show .big{display:block;width:fit-content;max-width:100%;margin:18px auto 0;background:var(--navy);padding:14px 40px 14px 36px;clip-path:polygon(18px 0,100% 0,calc(100% - 18px) 100%,0 100%);font-family:var(--pf);font-style:italic;font-weight:700;font-size:clamp(27px,8.2vw,38px);font-variant-numeric:lining-nums;line-height:1.35;letter-spacing:.01em}
+.show .big .nw{display:inline-block;background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding:0 .3em 0 .12em}
+.show .b{margin-top:16px;font-family:var(--mi);font-weight:900;font-size:25px;line-height:1.6;color:var(--navy)}
+.show .em{margin-top:22px;font-family:var(--mi);font-weight:900;font-size:22px;line-height:1.85;color:var(--navy);text-wrap:balance}
+.show .mk{background:none;padding:0}
+
+/* 回想の絵（5枚を1枚に溶かし合わせた物。スマホは縦長、PCは横長） */
+.s6::before{display:none}
+.kaisou{margin:0 auto;width:min(100%,560px);position:relative;z-index:1}
+.kaisou img{display:block;width:100%;height:auto}
+.s6 .in{margin-top:20px}
+@media (min-width:900px){.kaisou{width:min(100%,1100px)}.s6 .in{margin-top:28px}}
+
+/* フッター */
+.ft{position:relative;background:var(--navy);color:#FFFFFF;padding:44px 0 calc(40px + 84px);font-size:14px;line-height:1.8;font-weight:500;text-align:center;border-top:1px solid rgba(224,184,72,.45)}
+.ft ul{display:flex;flex-wrap:wrap;justify-content:center;gap:2px 22px}
+.ft a{display:inline-block;padding:6px 0;color:#FFFFFF;font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.ft .cr{margin-top:14px;font-size:13px;font-weight:500;letter-spacing:.04em;color:rgba(255,255,255,.78)}
+
+/* 付いてくるボタン */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(255,249,227,.97);border-top:1px solid var(--line);box-shadow:0 -8px 22px rgba(19,38,79,.10);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));transform:translateY(110%);visibility:hidden}
+.sticky.on{transform:none;visibility:visible}
+@media (prefers-reduced-motion:no-preference){.sticky{transition:transform .25s ease,visibility 0s linear .25s}.sticky.on{transition:transform .25s ease,visibility 0s}}
+.sticky .btn{min-height:60px;font-size:18px;padding:8px 18px 8px 24px}
+
+/* 質問のボタン（画面の右下にずっと出す。×で閉じる） */
+.ask{position:fixed;z-index:60;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));max-width:calc(100vw - 28px)}
+.sl.bar .ask{bottom:calc(var(--bar-h,84px) + 14px)}
+@media (prefers-reduced-motion:no-preference){.ask{transition:bottom .25s ease}}
+.sl .ask-b{color:var(--navy)}
+.ask-b{display:flex;align-items:center;gap:8px;padding:8px 18px 8px 8px;background:#FFFFFF;color:var(--navy);border-radius:999px;font-size:15px;font-weight:700;line-height:1.4;text-decoration:none;box-shadow:0 0 0 1.5px var(--lg),0 8px 20px rgba(19,38,79,.22)}
+.ask-ic{flex:none;display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--lg)}
+.ask-ic svg{width:20px;height:20px;fill:#FFFFFF}
+.ask-lb{flex:none;background:var(--lg);color:#FFFFFF;border-radius:6px;padding:0 6px;font-family:var(--go);font-size:11px;font-weight:900;line-height:1.7;letter-spacing:.06em}
+.ask-x{position:absolute;right:-6px;top:-10px;width:26px;height:26px;padding:0;border:0;border-radius:50%;background:#FFFFFF;color:var(--navy);box-shadow:0 2px 8px rgba(19,38,79,.30);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.ask-x::after{content:"";position:absolute;inset:-9px}
+.ask-x svg{width:12px;height:12px;stroke:var(--navy);stroke-width:2.6;stroke-linecap:round}
+.ask-o{display:flex;align-items:center;justify-content:center;width:48px;height:48px;padding:0;border:0;border-radius:50%;background:var(--lg);cursor:pointer;box-shadow:0 0 0 2px #FFFFFF,0 8px 20px rgba(19,38,79,.28)}
+.ask-o svg{width:26px;height:26px;fill:#FFFFFF}
+
+@media (max-width:380px){
+ .t{font-size:26px}
+ .t.big{font-size:28px}
+ .pbox{padding-left:16px;padding-right:16px}
+ .apply .row{grid-template-columns:minmax(0,1fr);padding:12px 0}
+ .apply dt{line-height:1.7}
+ .bubbles li,.talk li{font-size:17px;padding:12px 18px}
+ .mem li{grid-template-columns:44px minmax(0,1fr);gap:0 10px;padding:18px 14px 20px 12px}
+ .mem .num{width:44px;height:44px;font-size:28px}
+ .mem .num::before{left:5px;top:4px;width:36px;height:36px}
+ .mem h3{font-size:20px}
+ .t .nw{white-space:normal}
+ .t .nw.q{white-space:nowrap}
+ .faq summary{padding:16px 12px;gap:10px}
+ .faq .q,.faq .a{width:30px;height:30px;font-size:18px}
+ .faq h3{font-size:18px}
+ .faq .ans{padding:14px 12px 18px;gap:10px}
+}
+
+/* 中間の幅（600〜959）：スマホと同じ1列。読む列は最大640px */
+@media (min-width:600px){
+ .sl{font-size:20px}
+ .t{font-size:34px}
+ .t.big{font-size:36px}
+ .em{font-size:22px}
+ .btn{width:auto;min-width:min(440px,100%);margin-left:auto;margin-right:auto}
+ .fv .btn,.pbox ~ .btn,.apply .btn,.sticky .btn{width:100%}
+ .cd{max-width:520px;margin-left:auto;margin-right:auto}
+ .tbl{display:table;border-collapse:separate;border-spacing:0;background:#FFFFFF;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);font-size:18px;line-height:1.6;font-weight:700}
+ .tbl thead{position:static;width:auto;height:auto;overflow:visible;clip:auto;display:table-header-group}
+ .tbl tbody{display:table-row-group}
+ .tbl tr{display:table-row;background:none;border:0;border-radius:0;box-shadow:none;padding:0;font-size:inherit}
+ .tbl tr + tr{margin-top:0}
+ .tbl th{background:var(--navy);color:#FFFFFF;font-weight:700;text-align:left;padding:13px 14px}
+ .tbl td{display:table-cell;padding:14px;border-top:1px solid var(--line);vertical-align:top;font-weight:700;text-align:left}
+ .tbl td:nth-child(1),.tbl td:nth-child(2),.tbl td:nth-child(3){grid-column:auto;grid-row:auto;text-align:left}
+ .pbox{padding:46px 40px 42px}
+ .cards.two{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+ .card{padding:26px 26px 28px}
+ .photo{margin-top:40px}
+ .t1{width:min(70%,380px)}
+ .t3{width:min(70%,340px)}
+ .t4{width:min(94%,520px)}
+ .t2{width:min(100%,560px)}
+ .s2 .in>.t,.s5 .in>.t{padding:26px 30px 28px}
+ .t5 img{aspect-ratio:16/6}
+ .show .a,.show .b{font-size:30px}
+ .show .big{font-size:46px;padding:16px 60px 16px 54px}
+ .show .em{font-size:26px}
+ .show .in::before{left:max(20px,6%);width:56px;height:56px;top:-70px}
+ .apply{padding-bottom:132px}
+ .apply .row{grid-template-columns:8em minmax(0,1fr)}
+ .sec::before{height:44px}
+ .ft{padding-bottom:56px}
+ .ft ul{gap:2px 34px}
+ .bubbles li,.talk li{font-size:20px;padding:16px 26px}
+}
+@media (min-width:680px){
+ .ptbl .p3{align-items:flex-start}
+ .ptbl{display:table;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+ .ptbl thead{position:static;width:auto;height:auto;overflow:visible;clip:auto;display:table-header-group}
+ .ptbl tbody{display:table-row-group}
+ .ptbl tr{display:table-row;border:0;border-radius:0;padding:0}
+ .ptbl tr + tr{margin-top:0}
+ .ptbl th{background:var(--navy);color:#FFFFFF;font-weight:700;text-align:left;padding:12px 14px;font-size:16px;line-height:1.5}
+ .ptbl td{display:table-cell;padding:12px 14px;border-top:1px solid var(--line);font-size:18px;text-align:left}
+ .ptbl td:first-child{background:#FFFFFF;margin:0;font-size:18px;font-weight:900}
+ .ptbl td:not(:first-child){display:table-cell}
+ .ptbl td:not(:first-child)::before{display:none}
+ .ptbl th:last-child,.ptbl td:last-child{text-align:right}
+}
+@media (min-width:768px){
+ .sec,.show{padding-top:88px;padding-bottom:88px}
+ .sec.s5{padding-top:0}
+ .flow > * + *{margin-top:1.4em}
+ .flow > .grp + .grp,.flow > .grp + .em,.flow > .em + .grp{margin-top:1.8em}
+ .sticky{display:none}
+ .ask{bottom:20px;right:24px}
+ .sl.bar .ask{bottom:20px}
+}
+/* PC（960以上）：写真と文を2列に */
+@media (min-width:960px){
+ .in{max-width:760px}
+ .pg .in{max-width:1120px;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);grid-template-areas:"p t" "p f";column-gap:72px;align-items:start}
+ .pg.rev .in{grid-template-columns:minmax(0,6fr) minmax(0,5fr);grid-template-areas:"t p" "f p"}
+ .pg .t{grid-area:t;align-self:end}
+ .pg .flow{grid-area:f;margin-top:34px}
+ .pg .photo{grid-area:p;margin:0;align-self:start;position:sticky;top:32px;justify-self:center}
+ .pg .t1,.pg .t3,.pg .t4{width:100%;max-width:440px}
+ .pg .t3{max-width:400px}
+ .pg .t2{max-width:none;width:100%}
+ .pg.dense .in{grid-template-areas:"p t" "f f";align-items:center}
+ .pg.dense.rev .in{grid-template-areas:"t p" "f f"}
+ .pg.dense .t{align-self:center}
+ .pg.dense .photo{position:relative;top:auto;align-self:center}
+ .pg.dense .flow{width:100%;max-width:760px;justify-self:center;margin-top:64px}
+ .pg.s2 .in>.t{margin-left:-80px;margin-top:0}
+ .pg.s2.rev .in>.t{margin-left:0;margin-right:-80px}
+ .t{font-size:38px}
+ .t.big{font-size:42px}
+ .t5 img{aspect-ratio:16/5.2}
+ .sec::before{height:48px}
+ .pbox{padding:46px 44px 44px}
+ .pbox .pbig .n{font-size:64px}
+ .pbox .pbig .yen{font-size:36px}
+ .pbox .pbig .tx{font-size:24px}
+ .apply .abig .n{font-size:64px}
+ .apply .abig .yen{font-size:36px}
+ .apply .abig .tx{font-size:24px}
+ .apply::after{inset:70px calc(50% - 560px) 76px}
+ .apply{padding-bottom:140px}
+ .cd,.apply .cd{max-width:520px}
+ .ft{padding-bottom:64px}
+ .show .big{font-size:50px;padding:16px 64px 16px 58px}
+ .show .a,.show .b{font-size:30px}
+ .chg{display:table;border-collapse:separate;border-spacing:0 14px}
+ .chg thead{position:static;width:auto;height:auto;overflow:visible;clip:auto;display:table-header-group}
+ .chg tbody{display:table-row-group}
+ .chg tr{display:table-row;background:none;border:0;box-shadow:none;border-radius:0;overflow:visible}
+ .chg tr + tr{margin-top:0}
+ .chg th{background:var(--navy);color:#FFFFFF;font-weight:700;text-align:left;padding:13px 24px;font-size:17px}
+ .chg th:first-child{border-radius:14px 0 0 14px}
+ .chg th:last-child{border-radius:0 14px 14px 0;padding-left:44px}
+ .chg td{display:table-cell;padding:20px 24px;vertical-align:middle;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:19px}
+ .chg td:first-child{position:relative;background:#FFFFFF;border-left:1px solid var(--line);border-radius:20px 0 0 20px;width:45%;padding:20px 24px}
+ .chg td:last-child{background:#FFF1B0;border-right:1px solid var(--line);border-radius:0 20px 20px 0;padding:20px 24px 20px 44px}
+ .chg td::before{display:none}
+ .chg .arw{display:none}
+ .chg td:first-child::after{content:"";position:absolute;right:-20px;top:50%;width:40px;height:40px;margin-top:-20px;border-radius:50%;background:var(--navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h15M13 6l6 6-6 6'/%3E%3C/svg%3E") center/22px no-repeat;box-shadow:0 4px 10px rgba(19,38,79,.2);z-index:2}
+}
+@media (min-width:1200px){
+ .t{font-size:40px}
+ .t.big{font-size:44px}
+}
+/* 2026-11-16：最後の申し込みの所。スマホでは項目名と中身を縦に並べ、枠の線に字が掛からないように */
+@media (max-width:479px){.apply .row{grid-template-columns:minmax(0,1fr);gap:2px 0;padding:12px 0}.apply dd{font-size:17px}}
+/* 2026-11-17：スマホ（767px以下）の縦の間。節56／写真→題20／題→本文20／かたまり28／カード12／波40以内 */
+@media (max-width:767px){
+ .sec,.show{padding-top:56px;padding-bottom:56px}
+ .sec.s5{padding-top:0}
+ .apply{padding-top:76px;padding-bottom:88px}
+ .apply::after{inset:46px 8px 36px}
+ .sec::before{height:30px}
+ .photo{margin-top:20px}
+ .photo.t4{margin-top:30px}
+ .t2{margin-top:0}
+ .photo + .flow{margin-top:28px}
+ .flow{margin-top:20px}
+ .flow > * + *{margin-top:28px}
+ .flow > .grp + .grp,.flow > .grp + .em,.flow > .em + .grp{margin-top:28px}
+ .s2 .in>.t + .flow,.s5 .in>.t + .flow{margin-top:24px}
+ .photo.pp + .flow{margin-top:-30px}
+ .cards,.mem,.faq{gap:12px}
+ .chg tr + tr,.tbl tr + tr,.ptbl tr + tr{margin-top:12px}
+ .pay{margin-top:28px}
+ .pay + .pay{margin-top:12px}
+ .show .in::before{top:-30px}
+}
+/* 2026-11-17：マーカーの行で、読点の後ろに空きが出ないように（かたまりごとの左右の余白を無くす） */
+.ph>.mk{padding-left:0;padding-right:0}
+/* 2026-11-17：スマホで、吹き出しの文がなるべく1行に収まるように */
+@media (max-width:479px){.bubbles li{max-width:95%;font-size:17px;padding:13px 20px}}
+/* 2026-11-17 版5：島さんの直し */
+.spbr{display:none}
+@media (max-width:539px){.spbr{display:inline}}
+.reco{display:inline-block;margin-left:10px;padding:1px 11px;border-radius:999px;background:var(--navy);color:#FFFFFF;font-size:13px;font-weight:900;line-height:1.7;letter-spacing:.06em;vertical-align:.14em;white-space:nowrap}
+.pban{display:none;margin:0}
+/* PC：参加費用の写真は、ぼかさずに、紺のカードの上の帯として入れる（白飛びと上の空きを無くす） */
+@media (min-width:768px){
+ .photo.pp{display:none}
+ .photo.pp + .flow{margin-top:0}
+ .pbox{padding-top:0;overflow:hidden}
+ .pban{display:block;margin:0 -40px 38px;position:relative}
+ .pban img{display:block;width:100%;height:280px;object-fit:cover;object-position:50% 46%}
+ .pban::after{content:"";position:absolute;left:0;right:0;bottom:0;height:90px;background:linear-gradient(180deg,rgba(19,38,79,0),rgba(19,38,79,.55) 70%,#13264F)}
+}
+@media (min-width:768px){.pbox::before{top:290px;border-top-left-radius:14px;border-top-right-radius:14px}}
+@media (min-width:960px){.pban{margin-left:-44px;margin-right:-44px}.pban img{height:300px}.pbox::before{top:310px}}
+@media (min-width:960px){.ptbl td:first-child{white-space:nowrap}}
+</style>
+</head>
+<body>
+<div class="sl">
+<section class="fv" data-nosticky=""><div class="vh"><p class="lab"><span class="nw">50代・60代からの</span><span class="nw">ライフ＆マネー実践プログラム</span></p><h1>お金の不安を解消する <br> 自分専用のマネープランを。</h1><p class="lead">NISAも、年金も、老後資金も、</p><p class="lead">情報はたくさんあるのに、<br>「結局、私はどうすればいいの？」と思っていませんか？</p><p class="l1">お金の「守り方・増やし方・使い方・残し方」を学び、</p><p class="l1">自分の数字で未来をシミュレーション。</p><p class="emp">3ヶ月で、あなた専用の「<span class="nw">My Money Plan</span>」を完成させる</p><p class="nm"><span class="nw">50<sup>+</sup>Money School</span></p></div><div class="pic"><img src="images/00_fv.jpg" width="1024" height="1536" fetchpriority="high" alt="50代・60代からのライフ＆マネースクール。NISAも、年金も、老後資金も、情報はたくさんあるのに、「結局、私はどうすればいいの？」と思っていませんか？お金の「守り方・増やし方・使い方・残し方」を学び、自分の数字で未来をシミュレーション。3ヶ月で、お金の不安を解消する。あなた専用の「My Money Plan」を完成させる。50+Money School"></div><div class="fc"><div class="in"><div class="cd" data-cd="" data-nowrap=""><p class="cd-fb">お申し込み締切：2026年12月19日（土）23:59</p><div class="cd-live" hidden=""><p class="cd-h">お申し込み締切まで</p><p class="cd-n"><span class="cd-b"><b data-u="d">00</b><i>日</i></span><span class="cd-b"><b data-u="h">00</b><i>時間</i></span><span class="cd-b"><b data-u="m">00</b><i>分</i></span><span class="cd-b"><b data-u="s">00</b><i>秒</i></span></p></div><p class="cd-end" hidden="">お申し込みの受付は終了しました</p></div><a class="btn" href="#apply"><span><span class="ph">初回モニター価格で<wbr>申し込む</span></span><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"></path></svg></a></div></div></section>
+<section class="sec w s1 pg"><div class="in"><h2 class="t"><span class="ph"><span class="ul">「私の<wbr>場合は<wbr><span class="nw">どうしたらいい？」</span><wbr>と<wbr>迷っていませんか？</span></span></h2><figure class="photo t1"><img style="object-position:22% 30%" src="images/02_mayoi.jpg" width="1200" height="800" alt="ソファでスマートフォンを手に、考え込む女性" loading="lazy"></figure><div class="flow"><div class="grp"><p><span class="ph">将来の<wbr>お金が<wbr>心配で、</span><span class="ph">NISAや<wbr>資産形成に<wbr>ついて<wbr>調べている。</span></p><p><span class="ph"><span class="nw">YouTube</span><wbr>や<wbr>SNS、</span><span class="ph">本などで<wbr>情報を<wbr>集めても、</span><span class="ph">いろいろな<wbr>意見が<wbr>あって<wbr>迷ってしまう。</span></p></div><ul class="bubbles"><li><span><span class="nw q">「オルカンがいい」</span></span></li><li><span><span class="ph">「S&amp;P500が<wbr>いい」</span></span></li><li><span><span class="ph">「50代からは<wbr>リスクを<wbr>抑えるべき」</span></span></li><li><span><span class="ph">「まだまだ<wbr>積極的に</span><br class="spbr"><span class="ph">投資した方が<wbr>いい」</span></span></li></ul><div class="grp"><p><span class="ph">どれも<wbr>気に<wbr>なるけれど……</span></p><p class="em"><span class="ph"><span class="mk">「それで、</span></span><span class="ph"><span class="mk">結局、</span></span><span class="ph"><span class="mk">私は<wbr>どう<wbr>すれば<wbr>いいの？」</span></span></p></div><div class="grp"><p><span class="ph">例えば、</span><span class="ph">こんな<wbr>悩みは<wbr>ありませんか？</span></p></div><ul class="check"><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">今の<wbr>貯金と<wbr>年金で、</span><span class="ph">老後の<wbr>お金は<wbr>足りる？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">NISAは、</span><span class="ph">このまま<wbr>積み立て<wbr>続けていい？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">投資を<wbr>始めたいけれど、</span><span class="ph">何を<wbr>選べばいい？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">何歳まで<wbr>働けば、</span><span class="ph">安心して<wbr>暮らせる？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">資産は、</span><span class="ph">いつから<wbr>どの<wbr>くらい<wbr>使っていい？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">旅行や<wbr>趣味を<wbr>楽しみたいけれど、</span><span class="ph">老後が<wbr>心配。</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">保険や<wbr>家計、</span><span class="ph">相続の<wbr>ことも、</span><span class="ph">そろそろ<wbr>考えたい。</span></span></li></ul><div class="grp"><p><span class="ph">将来の<wbr>ために、</span><span class="ph">ちゃんと<wbr>備えて<wbr>おきたい。</span></p><p><span class="ph">でも、</span><span class="ph">お金を<wbr>減らすのも<wbr>怖いし、</span><span class="ph">失敗も<wbr>したくない。</span></p><p><span class="ph">だから、</span><span class="ph">なかなか<wbr>決められない。</span></p></div><div class="grp"><p><span class="ph">もし、</span><span class="ph">そんな<wbr>状態が<wbr>続いていると<wbr>したら、</span><span class="ph">ぜ<wbr>ひ<wbr>知って<wbr>ほしい<wbr>ことがあります。</span></p></div></div></div></section>
+<section class="sec c s3 pg rev"><div class="in"><h2 class="t"><span class="ph"><span class="ul">お金の<wbr>知識を<wbr>増やすだけでは、</span></span><span class="ph"><span class="ul">自分の<wbr>答えは<wbr>見つからない。</span></span></h2><figure class="photo t3"><img style="object-position:58% 55%" src="images/03_chishiki.jpg" width="1200" height="800" alt="机に積まれた本や雑誌と、付箋を貼ったノート" loading="lazy"></figure><div class="flow"><div class="grp"><p><span class="ph">なぜなら、</span><span class="ph">一般的な<wbr>お金の<wbr>情報は、</span><span class="ph">あなた<wbr>自身の<wbr>人生を<wbr>前提に<wbr>しているわけでは<wbr>ないからです。</span></p></div><div class="grp"><p><span class="ph">同じ<wbr>55歳でも、</span></p><p><span class="ph">預貯金が<wbr><span class="nw">500万円</span>の<wbr>人と、</span><span class="ph"><span class="nw">3,000万円</span>の<wbr>人。</span></p><p><span class="ph">60歳で<wbr>仕事を<wbr>辞めたい<wbr>人と、</span><span class="ph">70歳まで<wbr>働きたい人。</span></p><p><span class="ph">海外旅行を<wbr>楽しみたい<wbr>人と、</span><span class="ph">住まいを<wbr>整えてゆったり<wbr>暮らしたい人。</span></p></div><div class="grp"><p><span class="ph">必要な<wbr>お金も、</span><span class="ph">その<wbr>準備の<wbr>仕方も<wbr>違います。</span></p></div><div class="grp"><p><span class="ph">例えば、</span><span class="ph">「毎月<wbr><span class="nw">5万円</span>の<wbr>NISA積立が<wbr>おすすめ」と<wbr>聞いても、</span><span class="ph">その<wbr><span class="nw">5万円</span>が<wbr>あなたに<wbr>とって<wbr>適切か<wbr>どうかは、</span><span class="ph">収入・生活費・<wbr>今後の<wbr>予定に<wbr>よって<wbr>変わります。</span></p></div><p class="em"><span class="ph"><span class="mk">大切なのは、</span></span><span class="ph"><span class="mk">誰かに<wbr>とっての<wbr>正解を、</span></span><span class="ph"><span class="mk">そのまま<wbr>自分の<wbr>正解に<wbr>しない<wbr>こと。</span></span></p><div class="grp"><p><span class="ph">自分の<wbr>人生とお金を<wbr>整理し、</span><span class="ph">自分に<wbr>合った<wbr>方<wbr>法を<wbr>選べるようになる<wbr>ことです。</span></p></div></div></div></section>
+<section class="sec w s5"><figure class="photo t5"><img style="object-position:62% 40%" src="images/04_jikan.jpg" width="1200" height="800" alt="海辺の遊歩道を並んで歩く夫婦の後ろ姿" loading="lazy"></figure><div class="in"><h2 class="t"><span class="ph"><span class="ul">50代からは、</span></span><span class="ph"><span class="ul">お金だけでなく<wbr><span class="nw q">「時間」</span>も<wbr>大切な<wbr>資産です。</span></span></h2><div class="flow"><div class="grp"><p><span class="ph">将来の<wbr>ために、</span><span class="ph">お金を<wbr>守り、</span><span class="ph">増やす<wbr>ことは<wbr>大切です。</span></p><p><span class="ph">でも、</span><span class="ph">こんな<wbr>思いも<wbr>ありませんか？</span></p></div><div class="grp"><ul class="dots"><li><span class="ph">元気なうちに、</span><span class="ph">行きたい<wbr>場所へ<wbr>旅行したい。</span></li><li><span class="ph">大切な<wbr>人と<wbr>過ごす時間を<wbr>増や<wbr>したい。</span></li><li><span class="ph">住まいを<wbr>心地よく<wbr>整えたい。</span></li><li><span class="ph">好きな<wbr>仕事や、</span><span class="ph">新しい<wbr>ことにも<wbr>挑戦したい。</span></li></ul></div><div class="grp"><p><span class="ph">これからの<wbr>人生で<wbr>叶えたい<wbr>ことは、</span><span class="ph">まだまだ<wbr>あるはずです。</span></p></div><div class="grp"><p><span class="ph">その<wbr>ために<wbr>必要なのは、</span><span class="ph">お金だけでは<wbr>ありません。</span></p><p><span class="ph">時間も、</span><span class="ph">健康も、</span><span class="ph">大切な<wbr>人との<wbr>タイミングも<wbr>あります。</span></p></div><div class="grp"><p><span class="ph">だから<wbr>こそ、</span></p><p class="em"><span class="ph"><span class="mk"><span class="nw q">「いくら貯めるか」</span><wbr>だ<wbr>けでなく、</span></span><span class="ph"><span class="mk">「いつ、</span></span><span class="ph"><span class="mk">誰と、</span></span><span class="ph"><span class="mk">何を<wbr>叶えたいか」まで<wbr>考える。</span></span></p></div><div class="grp"><p><span class="ph">将来に<wbr>備える<wbr>ことも、</span><span class="ph">今の<wbr>人生を<wbr>楽しむことも。</span></p><p><span class="ph">その<wbr>両方を<wbr>大切に<wbr>したい。</span></p></div><p class="em"><span class="ph"><span class="mk">お金を<wbr>貯める<wbr>ために、</span></span><span class="ph"><span class="mk">人生を<wbr>後回しに<wbr>しない。</span></span></p><div class="grp"><p><span class="ph">これが、</span><span class="ph"><span class="nw">50<sup>+</sup>Money</span><wbr>の<wbr>考え方です。</span></p></div></div></div></section>
+<section class="sec c s2 pg"><div class="in"><figure class="photo t2"><img style="object-position:50% 50%" src="images/05_mirai.jpg" width="1200" height="800" alt="タブレットのグラフを見る女性の手元とノート、コーヒー" loading="lazy"></figure><h2 class="t"><span class="ph"><span class="ul">もし、</span></span><span class="ph"><span class="ul">自分の<wbr>お金の<wbr>未来を<wbr>確かめられたら？</span></span></h2><div class="flow"><div class="grp"><p><span class="ph">今の<wbr>資産、</span><span class="ph">収入、</span><span class="ph">生活費、</span><span class="ph">年金を<wbr>整理して、</span></p><p><span class="ph">60歳、</span><span class="ph">65歳、</span><span class="ph">70歳、</span><span class="ph">80歳、</span><span class="ph">90歳……</span></p><p><span class="ph">これからの<wbr>お金の<wbr>見通しを<wbr>確認できる。</span></p></div><div class="grp"><p><span class="ph">さらに、</span><span class="ph">条件を<wbr>変えて<wbr>比べてみる。</span></p></div><ul class="check"><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">NISAの<wbr>積立額を<wbr>変えたら？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">退職する<wbr>年齢を<wbr>変えたら？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">毎年、</span><span class="ph">旅行を<wbr>楽しんだら？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">住み替えを<wbr>するとしたら？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">年金を<wbr>受け取り始める<wbr>時期を<wbr>変えたら？</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">運用が<wbr>思うように<wbr>いかなかったら？</span></span></li></ul><div class="grp"><p><span class="ph">そんな<wbr>未来を、</span><span class="ph">自分の<wbr>数字で<wbr>比較できたら<wbr>どうでしょう。</span></p></div><div class="grp"><p><span class="ph">「ここは、</span><span class="ph">も<wbr>う<wbr>少し<wbr>準備が<wbr>必要そう」</span></p><p><span class="ph">「この<wbr>希望なら、</span><span class="ph">実現に<wbr>近づけそう」</span></p><p><span class="ph">「まずは、</span><span class="ph">この<wbr>支出を<wbr>見直してみよう」</span></p></div><div class="grp"><p><span class="ph">漠然とした<wbr>不安が、</span><span class="ph">具体的な<wbr>課題と<wbr>行動に<wbr>変わっていきます。</span></p></div><p class="em"><span class="ph"><span class="mk">未来を<wbr>正確に<wbr>予測する<wbr>ことは<wbr>できなくても、</span></span><span class="ph"><span class="mk">複数の<wbr>可能性を<wbr>比較して<wbr>備える<wbr>ことは<wbr>できます。</span></span></p></div></div></section>
+<section class="sec show"><div class="in"><p class="a"><span class="ph">その<wbr>ために<wbr>生まれたのが、</span></p><p class="big"><span class="nw">50<sup>+</sup>Money School</span></p><p class="b"><span class="ph">です。</span></p></div></section>
+<section class="sec w s1 pg rev"><div class="in"><h2 class="t"><span class="ul"><span class="nw">50<sup>+</sup>Money School</span><span class="nw">とは？</span></span></h2><figure class="photo t1"><img style="object-position:92% 35%" src="images/06_design.jpg" width="1200" height="800" alt="白いテーブルでノートに計画を書く女性と黄色い花" loading="lazy"></figure><div class="flow"><p class="sub"><span class="ph">3ヶ月で、</span><span class="ph"><span class="gd">お金の<wbr>守り方・増やし方・<wbr>使い方・残し方</span>を<wbr>学び、</span><span class="ph">自分専用の<wbr>マネープランを<wbr>完成させます。</span></p><div class="grp"><p><span class="ph">金融知識を<wbr>たくさん<wbr>覚える<wbr>ことが<wbr>目的では<wbr>ありません。</span></p></div><p class="em"><span class="ph"><span class="mk">「結局、</span></span><span class="ph"><span class="mk">私は<wbr>どう<wbr>すれば<wbr>いい？」</span></span><span class="ph"><span class="mk">に、<wbr>自分なりの<wbr>答えを<wbr>持てるようになる<wbr>こと。</span></span></p><div class="grp"><p><span class="ph">その<wbr>ために、</span><span class="ph"><span class="nw">50<sup>+</sup>Money</span><wbr>独自の</span></p><p class="mn"><span class="ph"><span class="mname">未来逆算型<wbr><span class="nw">ライフ＆マネー</span><wbr>デザインメソッド</span></span></p><p><span class="ph">を<wbr>使います。</span></p></div><ol class="cards"><li class="card"><span class="badge st">STEP 1</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">見える<wbr>化する</span></span></h3><p><span class="ph">今の<wbr>資産・収入・<wbr>生活費・年金を<wbr>整理し、</span><span class="ph">このまま<wbr>進んだ<wbr>場合の<wbr>お金の<wbr>未来を<wbr>確認します。</span></p></li><li class="card"><span class="badge st">STEP 2</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">未来を<wbr>描く</span></span></h3><p><span class="ph">旅行・住まい・<wbr>仕事・趣味・<wbr>家族との<wbr>時間など、</span><span class="ph">これから<wbr>叶えたい<wbr>ことを、</span><span class="ph">時期や<wbr>予算まで<wbr>具体化します。</span></p></li><li class="card"><span class="badge st">STEP 3</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">逆算して<wbr>選ぶ</span></span></h3><p><span class="ph">お金の<wbr>守り方・増やし方・<wbr>使い方・残し方を<wbr>学び、</span><span class="ph">複数の<wbr>未来を<wbr>比較。</span></p><p><span class="ph">自分が<wbr>目指したい<wbr>未来と、</span><span class="ph">今やるべきことを<wbr>決めます。</span></p></li></ol></div></div></section>
+<section class="sec show"><div class="in"><p class="a"><span class="ph">そして、</span><span class="ph">3ヶ月で<wbr>完成を<wbr>目指すのが……</span></p><p class="big"><span class="nw">My Money Plan</span></p><p class="em"><span class="ph"><span class="mk">あなたの<wbr>人生とお金を、</span></span><span class="ph"><span class="mk">一つに<wbr>つなげた<wbr>「自分専用の<wbr>未来設計図」です。</span></span></p></div></section>
+<section class="sec c s4 pg dense"><div class="in"><h2 class="t"><span class="ph"><span class="ul">「結局、</span></span><span class="ph"><span class="ul">どう<wbr>したら<wbr>いい？」</span></span><span class="ph"><span class="ul">に<wbr>答える、</span></span><span class="ph"><span class="ul">4大メソッド。</span></span></h2><figure class="photo t4"><img style="object-position:50% 50%" src="images/07_method.jpg" width="1200" height="800" alt="生成りのテーブルに並べた鍵・鉢植え・カメラと手帳・写真立て" loading="lazy"></figure><div class="flow"><div class="grp"><p><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>では、</span><span class="ph">お金の<wbr>4つの<wbr>分野に<wbr>ついて、</span><span class="ph">12の<wbr>実践方<wbr>法を<wbr>学びます。</span></p><p><span class="ph">難しい<wbr>投資の<wbr>知識や、</span><span class="ph">個別銘柄の<wbr>分析を<wbr>前提としません。</span></p></div><div class="grp"><p><span class="ph">まずは、</span><span class="ph">初心者でも<wbr>取り<wbr>組みやすい<wbr>基本の<wbr>方法を<wbr>知る<wbr>こと。</span></p><p><span class="ph">そのうえで、</span><span class="ph">自分の<wbr>状況に<wbr>合う<wbr>選択肢を<wbr>考えます。</span></p></div><ol class="cards two"><li class="card mcard"><span class="num">01</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">お金の<wbr>守り方</span></span></h3><p class="one"><span class="ph">生活と<wbr>資産の<wbr>安心を<wbr>守る。</span></p><p><span class="ph">生活費・<wbr>予備資金・保険・<wbr>公的保障・<wbr>相場下落への<wbr>備えなど、</span><span class="ph">守る<wbr>お金の<wbr>基本を<wbr>学びます。</span></p></li><li class="card mcard"><span class="num">02</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">お金の<wbr>増やし方</span></span></h3><p class="one"><span class="ph">必要な<wbr>お金を、</span><span class="ph">必要な<wbr>時期に<wbr>向けて<wbr>育てる。</span></p><p><span class="ph">NISA・<wbr>分散投資・<wbr>積立・<wbr>資産配分など、</span><span class="ph">シンプルで<wbr>実践しやすい<wbr>資産形成の<wbr>基本を<wbr>学びます。</span></p></li><li class="card mcard"><span class="num">03</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">お金の<wbr>使い方</span></span></h3><p class="one"><span class="ph">将来の<wbr>安心と、</span><span class="ph">今の<wbr>人生の<wbr>豊かさを<wbr>両立する。</span></p><p><span class="ph">年金・資産の<wbr>取り崩し・<wbr>生活費・旅行など、</span><span class="ph">お金を<wbr>いつ、</span><span class="ph">どう<wbr>使うかを<wbr>考えます。</span></p></li><li class="card mcard"><span class="num">04</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">お金の<wbr>残し方</span></span></h3><p class="one"><span class="ph">自分と<wbr>大切な<wbr>人の<wbr>未来に<wbr>つなぐ。</span></p><p><span class="ph">老後後半の<wbr>生活資金、</span><span class="ph">家族への<wbr>備え、</span><span class="ph">資産情報の<wbr>整理、</span><span class="ph">相続・贈与の<wbr>基本を<wbr>学びます。</span></p></li></ol><div class="grp"><p><span class="ph">すべての<wbr>方法を<wbr>実行する<wbr>必要は<wbr>ありません。</span></p></div><p class="em"><span class="ph"><span class="mk">基本と<wbr>なる<wbr>方<wbr>法を<wbr>知り、</span></span><span class="ph"><span class="mk">自分に<wbr>必要な<wbr>ものを<wbr>選べるようになる。</span></span></p><div class="grp"><p><span class="ph">それが、</span><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>の<wbr>実践メソッドです。</span></p></div></div></div></section>
+<section class="sec w s3 pg rev dense"><div class="in"><h2 class="t"><span class="ph"><span class="ul">3ヶ月後、</span></span><span class="ph"><span class="ul">こんな<wbr>変化を<wbr>目指します。</span></span></h2><figure class="photo t3"><img style="object-position:15% 30%" src="images/08_henka.jpg" width="1200" height="800" alt="朝の光が入る窓辺でマグカップを持ち、外を見る女性" loading="lazy"></figure><div class="flow"><table class="chg"><thead><tr><th><span class="ph">今の<wbr>悩み</span></th><th><span class="ph">3ヶ月後に<wbr>目指す状態</span></th></tr></thead><tbody><tr><td data-l="今の悩み"><span class="ph">NISAは<wbr>何を<wbr>選べばいい？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">商品の<wbr>違いと<wbr>自分の<wbr>判断基準が<wbr>分かる</span></td></tr><tr><td data-l="今の悩み"><span class="ph">いくら積み<wbr>立てればいい？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">生活費や<wbr>予定支出を<wbr>踏まえて<wbr>考えられる</span></td></tr><tr><td data-l="今の悩み"><span class="ph">老後の<wbr>お金は<wbr>足りる？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">将来の<wbr>見通しと<wbr>必要な<wbr>課題や<wbr>行動が<wbr>分かる</span></td></tr><tr><td data-l="今の悩み"><span class="ph">旅行に<wbr>お金を<wbr>使っていい？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">旅行費の<wbr>有無で<wbr>未来を<wbr>比較できる</span></td></tr><tr><td data-l="今の悩み"><span class="ph">何歳まで<wbr>働けばいい？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">退職時期に<wbr>よる<wbr>違いを<wbr>数字で<wbr>比べられる</span></td></tr><tr><td data-l="今の悩み"><span class="ph">結局、</span><span class="ph">何から<wbr>始めればいい？</span><span class="arw" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"></path></svg></span></td><td data-l="3ヶ月後に目指す状態"><span class="ph">今すぐ・90日・<wbr>1年の<wbr>行動計画が<wbr>できる</span></td></tr></tbody></table><div class="grp"><p><span class="ph">こうした<wbr>学びと<wbr>実践を、</span><span class="ph">3ヶ月かけて<wbr>一つの<wbr>計画に<wbr>まとめます。</span></p><p><span class="ph">それが、</span><span class="ph">あなた<wbr>専用の<wbr> <wbr><span class="nw">My Money Plan</span> です。</span></p></div></div></div></section>
+<section class="sec c"><div class="in"><h2 class="t"><span class="ph"><span class="ul">あなたが<wbr>手に<wbr>する<wbr>「<span class="nw">My Money Plan</span>」</span></span></h2><div class="flow"><p class="sub"><span class="ph">これからの<wbr>人生とお金の<wbr>未来設計図</span></p><div class="grp"><p><span class="ph">今の<wbr>お金の<wbr>状況、</span><span class="ph">叶えたい<wbr>人生、</span><span class="ph">資産形成の<wbr>方針、</span><span class="ph">年金や<wbr>資産の<wbr>取り崩し。</span></p><p><span class="ph">そして、</span><span class="ph">これから<wbr>実行する<wbr>ことまで。</span></p></div><div class="grp"><p><span class="ph">一つに<wbr>まとめた、</span><span class="ph">あなただけの<wbr>マネープランです。</span></p></div><h3 class="h4"><span class="ph">例えば、</span><span class="ph">こんな<wbr>ことが<wbr>分かります。</span></h3><ul class="quotes"><li><span><span class="ph">「今のまま<wbr>進んだら、</span><span class="ph">80歳・90歳の<wbr>資産は<wbr>どうなる？」</span></span></li><li><span><span class="ph">「海外旅行に<wbr><span class="nw">100万円</span><wbr>使うと、</span><span class="ph">未来は<wbr>どう<wbr>変わる？」</span></span></li><li><span><span class="ph">「もう<wbr>少し<wbr>長く<wbr>働いたら、</span><span class="ph">将来の<wbr>安心は<wbr>増える？」</span></span></li></ul><div class="grp"><p><span class="ph">自分の<wbr>希望と<wbr>数字を<wbr>照らし<wbr>合わせながら、</span></p><p><span class="ph">希望・安心・<wbr>バランスの<wbr>3つの<wbr>人生プランを<wbr>比較します。</span></p></div><div class="grp"><p><span class="ph">その<wbr>中から、</span><span class="ph">自分が<wbr>目指したい方<wbr>向性を<wbr>選び、</span><span class="ph">今からの<wbr>行動計画へ<wbr>つなげます。</span></p></div><div class="frame"><span class="tag"><span class="ph">準備中</span></span><p><span class="ph">ここに<wbr><span class="nw">My Money Plan</span><wbr>の<wbr>完成見本・<wbr>アプリ画面を<wbr>掲載、</span><span class="ph">スクショ画像か<wbr>動画</span></p></div><p class="small fine"><span class="ph">※完成見本は<wbr>架空の<wbr>人物・数値に<wbr>よる<wbr>イメージです。</span><span class="ph">機能や<wbr>表示内容は<wbr>提供時の<wbr>仕様に<wbr>準じます。</span></p></div></div></section>
+<section class="sec w s5"><figure class="photo t5"><img style="object-position:50% 45%" src="images/10_kouza.jpg" width="1200" height="800" alt="自宅の机でオンライン講座を受けながらノートを取る女性" loading="lazy"></figure><div class="in"><h2 class="t"><span class="ph"><span class="ul">【1〜3ヶ月目】<wbr><span class="nw">50<sup>+</sup>Money School</span></span></span></h2><div class="flow"><h3 class="sub"><span class="ph">全6回の<wbr>実践講座</span></h3><div class="grp"><p><span class="ph">講義で<wbr>基本を<wbr>学び、</span><span class="ph">自分の<wbr>数字を<wbr>使って<wbr>実践。</span></p><p><span class="ph">宿題で<wbr>成果物を<wbr>仕上げ、</span><span class="ph">次の<wbr>回で<wbr>確認しながら<wbr>進めます。</span></p></div><ol class="cards sess"><li class="card"><span class="badge">第1回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">私の<wbr>お金、</span></span><span class="ph"><span class="ul">このままで<wbr>大丈夫？</span></span></h3><p><span class="ph">今の<wbr>資産・収支・<wbr>年金などを<wbr>整理し、</span><span class="ph">現状の<wbr>未来を<wbr>見える化。</span></p><p class="done"><span class="ph">完成する<wbr>もの： お金の<wbr>現在地・現状の<wbr>未来予測</span></p></li><li class="card"><span class="badge">第2回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">NISA・<wbr>資産形成、</span></span><span class="ph"><span class="ul">結局<wbr>私は<wbr>どう<wbr>すれば<wbr>いい？</span></span></h3><p><span class="ph">NISA・<wbr>iDeCoや<wbr>金融商品を<wbr>比較。</span><span class="ph">守る<wbr>お金と<wbr>育てる<wbr>お金を<wbr>分け、</span><span class="ph">積立額・運用方<wbr>針を<wbr>考えます。</span></p><p class="done"><span class="ph">完成する<wbr>もの： 資産形成方<wbr>針・積立計画</span></p></li><li class="card"><span class="badge">第3回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">これからの<wbr>人生、</span></span><span class="ph"><span class="ul">本当に<wbr>叶えたい<wbr>ことは？</span></span></h3><span class="pill"><span class="nw">リアル＋</span>Zoom同時開催</span><p><span class="ph">旅行・住まい・<wbr>仕事・趣味・<wbr>家族との<wbr>時間など、</span><span class="ph">叶えたい<wbr>未来を<wbr>具体化。</span></p><p><span class="ph">バケットリストや<wbr>人生タイムラインを<wbr>作成します。</span></p><p class="done"><span class="ph">完成する<wbr>もの： 未来<wbr>TOP10・<wbr>人生タイムライン</span></p></li><li class="card"><span class="badge">第4回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">我慢せず、</span></span><span class="ph"><span class="ul">未来に<wbr>使える<wbr>お金を<wbr>つくる</span></span></h3><p><span class="ph">固定費・保険・<wbr>サブスクなどを<wbr>見直し、</span><span class="ph">暮らしの<wbr>満足度を<wbr>大切に<wbr>しながら、</span><span class="ph">将来に<wbr>使える<wbr>お金を<wbr>生み出します。</span></p><p class="done"><span class="ph">完成する<wbr>もの： 暮らし・<wbr>支出改善計画</span></p></li><li class="card"><span class="badge">第5回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">理想の<wbr>未来、</span></span><span class="ph"><span class="ul">いくら<wbr>あれば<wbr>叶えられる？</span></span></h3><p><span class="ph">年金・退職時期・<wbr>積立・<wbr>生活費・資産の<wbr>取り崩しを<wbr>組み合わせ、</span><span class="ph">未来を<wbr>比較します。</span></p><p><span class="ph">現状維持を<wbr>基準に、</span><span class="ph"><span class="nw">「希望・安心・バランス」の</span><wbr>3つの<wbr>人生プランを<wbr>検討。</span></p><p><span class="ph">相場下落や<wbr>物価上昇などの<wbr>リスクも<wbr>確認します。</span></p><p class="done"><span class="ph">完成する<wbr>もの： <wbr>3つの<wbr>未来シナリオ・<wbr>将来資金計画</span></p></li><li class="card"><span class="badge">第6回</span><h3><span class="ph"><span class="vh">｜</span><span class="ul">未来を<wbr>描き、</span></span><span class="ph"><span class="ul">今を<wbr>選ぶ。</span></span></h3><p><span class="ph">自分が<wbr>目指したい<wbr>未来を<wbr>選び、</span><span class="ph">守り方・増やし方・<wbr>使い方・残し方の<wbr>方針を<wbr>整理。</span></p><p><span class="ph">相続や<wbr>資産情報の<wbr>引き継ぎも<wbr>学び、</span><span class="ph">これからの<wbr>行動計画を<wbr>まとめます。</span></p><p class="done"><span class="ph">完成する<wbr>もの： <wbr><span class="nw">My Money Plan</span>・<wbr><span class="nw">90日／</span>1年の<wbr>行動計画</span></p></li></ol></div></div></section>
+<section class="sec c s4 pg"><div class="in"><h2 class="t"><span class="ph"><span class="ul">お金の<wbr>ことを、</span></span><span class="ph"><span class="ul">安心して<wbr>話せる<wbr>場所は<wbr>ありますか？</span></span></h2><figure class="photo t4"><img style="object-position:50% 30%" src="images/11_basho.jpg" width="1200" height="800" alt="カフェのテーブルで和やかに話す3人の女性" loading="lazy"></figure><div class="flow"><ul class="talk"><li><span><span class="ph">「NISAは、</span><span class="ph">このまま<wbr>続けていいの<wbr>かな？」</span></span></li><li><span><span class="ph">「年金だけで、</span><span class="ph">老後は<wbr>大丈夫？」</span></span></li><li><span><span class="ph">「そろそろ資産を<wbr>使っても<wbr>いいのかな？」</span></span></li></ul><div class="grp"><p><span class="ph">そんな<wbr>疑問が<wbr>あっても、</span><span class="ph">お金の<wbr>ことは、</span><span class="ph">意外と<wbr>人に<wbr>聞きにくい<wbr>ものです。</span></p></div><div class="grp"><p><span class="ph">家族や<wbr>親しい<wbr>友人にも、</span><span class="ph">貯金や<wbr>投資の<wbr>話は<wbr>しづらい。</span></p><p><span class="ph">かと<wbr>いって、</span><span class="ph">金融機関や<wbr>保険の<wbr>窓口に<wbr>相談すると、</span><span class="ph">何か<wbr>商品を<wbr>勧められる<wbr>こともあります。</span></p><p><span class="ph">結局、</span><span class="ph"><span class="nw">YouTube</span><wbr>や<wbr>SNSで<wbr>調べて、</span><span class="ph">ますます<wbr>迷ってしまう。</span></p></div><p class="em"><span class="ph"><span class="mk">もし、</span></span><span class="ph"><span class="mk">同じように<wbr>人生とお金に<wbr>ついて<wbr>考える<wbr>仲間が<wbr>いて、</span></span><span class="ph"><span class="mk">分からない<wbr>ことを<wbr>相談できる<wbr>場所が<wbr>あったら、</span></span><span class="ph"><span class="mk">どうでしょう。</span></span></p><div class="grp"><p><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>では、</span><span class="ph">FP講師に<wbr>よる<wbr>学習・<wbr>ライフプランの<wbr>サポートに<wbr>加え、</span><span class="ph">同じ<wbr>世代の<wbr>仲間と<wbr>交流できる<wbr>環境を<wbr>ご用意しています。</span></p></div><p class="em"><span class="ph"><span class="mk">もちろん、</span></span><span class="ph"><span class="mk">資産額や<wbr>家庭の<wbr>事情を、</span></span><span class="ph"><span class="mk">ほかの<wbr>参加者に<wbr>話す必要は<wbr>ありません。</span></span></p><div class="grp"><p><span class="ph">大切なのは、</span><span class="ph">誰かと<wbr>同じ<wbr>答えを<wbr>出す<wbr>ことではなく、</span><span class="ph">自分に<wbr>合った<wbr>答えを<wbr>見つける<wbr>こと。</span></p></div><p class="em"><span class="ph"><span class="mk">ひとりで<wbr>悩み続けるの<wbr>ではなく、</span></span><span class="ph"><span class="mk">学び、</span></span><span class="ph"><span class="mk">相談し、</span></span><span class="ph"><span class="mk">自分で<wbr>選んでいける。</span></span></p><div class="grp"><p><span class="ph">そんな<wbr>場所も、</span><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>の<wbr>大切な<wbr>価値です。</span></p></div></div></div></section>
+<section class="sec w s1 pg rev"><div class="in"><h2 class="t"><span class="ph"><span class="ul">【4〜12ヶ月目】<wbr><span class="nw">50<sup>+</sup>Money Membership</span></span></span></h2><figure class="photo t1"><img style="object-position:48% 30%" src="images/12_membership.jpg" width="1200" height="800" alt="ソファでタブレットを見ながらくつろいで学ぶ女性" loading="lazy"></figure><div class="flow"><h3 class="sub"><span class="ph">つくった<wbr>未来を、</span><span class="ph">学びながら<wbr>育てる<wbr>9ヶ月間。</span></h3><div class="grp"><p><span class="ph">3ヶ月で<wbr><span class="nw">My Money Plan</span><wbr>を<wbr>つくった<wbr>後も、</span><span class="ph">人生や<wbr>お金の<wbr>状況は<wbr>変わっていきます。</span></p></div><div class="grp"><p><span class="ph">資産額が<wbr>変わった。</span></p><p><span class="ph">収入や<wbr>働き方が<wbr>変わった。</span></p><p><span class="ph">新しく<wbr>叶えたいことが<wbr>見つかった。</span></p></div><div class="grp"><p><span class="ph">だから<wbr>こそ、</span><span class="ph">未来の<wbr>計画も<wbr>更新していく<wbr>ことが<wbr>大切です。</span></p></div><h3 class="h4"><span class="ph"><span class="nw">Membership</span><wbr>で<wbr>できる<wbr>こと</span></h3><ol class="mem"><li><span class="num"><span class="ph">01</span></span><h3><span class="ph"><span class="vh">｜</span><span class="ul">学習動画・<wbr>講座アーカイブ</span></span></h3><p><span class="ph">NISA・<wbr>資産形成・<wbr>年金・取り<wbr>崩しなど、</span><span class="ph">必要な<wbr>知識を<wbr>自分の<wbr>ペースで<wbr>学び直せます。</span></p></li><li><span class="num"><span class="ph">02</span></span><h3><span class="ph"><span class="vh">｜</span><span class="ul">FP講師への<wbr>質問・相談サポート</span></span></h3><p><span class="ph">講座内容、</span><span class="ph">制度の<wbr>基本、</span><span class="ph">ライフプラン、</span><span class="ph"><span class="nw">My Money Plan</span><wbr>や<wbr>ツールの<wbr>使い方などに<wbr>ついて<wbr>相談できます。</span></p></li><li><span class="num"><span class="ph">03</span></span><h3><span class="ph"><span class="vh">｜</span><span class="ul">月1回の<wbr>お役立ち情報</span></span></h3><p><span class="ph">経済・金融・年金・<wbr>制度改正など、</span><span class="ph">50代から<wbr>知って<wbr>おきたい<wbr>情報を<wbr>分かりやすく<wbr>お届けします。</span></p></li><li><span class="num"><span class="ph">04</span></span><h3><span class="ph"><span class="vh">｜</span><span class="ul">会員限定交流<wbr>ROOM・オフ会</span></span></h3><p><span class="ph">同じ<wbr>世代の<wbr>仲間と、</span><span class="ph">学びや<wbr>暮らしを<wbr>楽しむ<wbr>アイデアなどを<wbr>共有できます。</span></p></li><li><span class="num"><span class="ph">05</span></span><h3><span class="ph"><span class="vh">｜</span><span class="ul">12ヶ月目の<wbr>未来更新セミナー</span></span></h3><p><span class="ph">資産・収入・<wbr>生活費・<wbr>人生イベントなどを<wbr>見直し、</span><span class="ph">翌年の<wbr><span class="nw">My Money Plan</span><wbr>を<wbr>考えます。</span></p></li></ol><p class="em"><span class="ph"><span class="mk">3ヶ月で<wbr>未来を<wbr>設計し、</span></span><span class="ph"><span class="mk">その<wbr>後<wbr>9ヶ月で<wbr>実践と<wbr>見直しを<wbr>続ける。</span></span></p><div class="grp"><p><span class="ph">これが、</span><span class="ph">初年度12ヶ月の<wbr>プログラムです。</span></p></div></div></div></section>
+<section class="sec c s2 pg"><div class="in"><figure class="photo t2"><img style="object-position:50% 55%" src="images/13_sentaku.jpg" width="1200" height="800" alt="公園の二手に分かれる小道を並んで歩く夫婦の後ろ姿" loading="lazy"></figure><h2 class="t"><span class="ph"><span class="ul">これからの<wbr>人生、</span></span><span class="ph"><span class="ul">お金の<wbr>選択で<wbr>どれだけ<wbr>変わると<wbr>思いますか？</span></span></h2><div class="flow"><div class="grp"><p><span class="ph">皆さん、</span><span class="ph">これからの<wbr>人生で、</span><span class="ph">お金に<wbr>ついて<wbr>大きな<wbr>決断を<wbr>する<wbr>機会は、</span><span class="ph">何回あると<wbr>思いますか？</span></p></div><div class="grp"><ul class="dots"><li><span class="ph">NISAを<wbr>いつまで<wbr>続けるのか。</span></li><li><span class="ph">何歳まで<wbr>働くのか。</span></li><li><span class="ph">年金を<wbr>いつから<wbr>受け取るのか。</span></li><li><span class="ph">旅行や<wbr>趣味に、</span><span class="ph">いつ、</span><span class="ph">いくら<wbr>使うのか。</span></li><li><span class="ph">資産を<wbr>どう<wbr>取り崩し、</span><span class="ph">家族に<wbr>何を<wbr>残すのか。</span></li></ul></div><div class="grp"><p><span class="ph">きっと、</span><span class="ph">一度や<wbr>二度では<wbr>ありませんよね。</span></p></div><div class="grp"><p><span class="ph">そして、</span><span class="ph">その<wbr>一つ<wbr>ひとつの<wbr>選択に<wbr>よって、</span><span class="ph">将来の<wbr>お金の<wbr>残高だけでなく、</span><span class="ph">これからの<wbr>人生の<wbr>楽しみ方も<wbr>変わってきます。</span></p></div><div class="grp"><p><span class="ph">だから<wbr>こそ、</span><span class="ph">これからの<wbr>お金に<wbr>ついて、</span><span class="ph">自分で<wbr>考え、</span><span class="ph">判断できるように<wbr>なることには、</span><span class="ph">大きな<wbr>価値が<wbr>あると<wbr>思うんです。</span></p></div><p class="em"><span class="ph"><span class="mk"><span class="nw">50<sup>+</sup>Money School</span><wbr>で<wbr>手に<wbr>入れていただ<wbr>きたいのは、</span></span><span class="ph"><span class="mk">単なる<wbr>金融知識では<wbr>ありません。</span></span></p><div class="grp"><p><span class="ph">これから<wbr>何度も<wbr>訪れる<wbr>お金の<wbr>選択を、</span><span class="ph">自分の<wbr>人生に<wbr>合わせて<wbr>考えられる力。</span></p><p><span class="ph">そして、</span><span class="ph">その<wbr>判断を<wbr>支える、</span><span class="ph">自分専用の<wbr><span class="nw">My Money Plan</span><wbr>です。</span></p></div></div></div></section>
+<section class="sec w s3 pg rev"><div class="in"><h2 class="t"><span class="ph"><span class="ul">お金の<wbr>勉強だけなら、</span></span><span class="ph"><span class="ul">無料でも<wbr>できます。</span></span></h2><figure class="photo t3"><img style="object-position:65% 50%" src="images/14_muryo.jpg" width="1200" height="800" alt="スマートフォンで動画を見ながらノートにメモを取る手元" loading="lazy"></figure><div class="flow"><div class="grp"><p><span class="ph"><span class="nw">YouTube</span><wbr>にも、</span><span class="ph">本にも、</span><span class="ph">たくさんの<wbr>情報が<wbr>あります。</span></p></div><div class="grp"><p><span class="ph">でも、</span><span class="ph">知識を<wbr>集めるだけでは、</span></p><p class="em"><span class="ph"><span class="mk">「結局、</span></span><span class="ph"><span class="mk">私は<wbr>どう<wbr>すれば<wbr>いいの？」</span></span></p><p class="em"><span class="ph"><span class="mk">と<wbr>いう<wbr>疑問は<wbr>残ってしまうのでは<wbr>ないでしょうか。</span></span></p></div><div class="grp"><p><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>では、</span><span class="ph">そこで<wbr>終わりません。</span></p></div><p class="em"><span class="ph"><span class="mk">3ヶ月間、</span></span><span class="ph"><span class="mk">実際に<wbr>自分の<wbr>お金と<wbr>人生に<wbr>向き合い、</span></span><span class="ph"><span class="mk"><span class="nw">My Money Plan</span><wbr>を<wbr>つくり上げます。</span></span></p><div class="grp"><p><span class="ph">その<wbr>ために、</span></p></div><ul class="check"><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">6回の<wbr>実践講座で、</span><span class="ph">お金の<wbr>守り方・増やし方・<wbr>使い方・残し方を<wbr>学ぶ</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">オリジナルワークで、</span><span class="ph">自分の<wbr>考えや<wbr>判断基準を<wbr>整理する</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">専用アプリで、</span><span class="ph">退職・年金・<wbr>積立・旅行などの<wbr>条件を<wbr>変えて<wbr>未来を<wbr>比較する</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">FP講師の<wbr>サポートで、</span><span class="ph">分からない<wbr>ことを<wbr>質問しながら<wbr>進める</span></span></li><li><span class="ckc" aria-hidden="true"></span><span><span class="ph">その<wbr>後<wbr>9ヶ月間の<wbr><span class="nw">Membership</span>で、</span><span class="ph">学び直しと<wbr>計画の<wbr>見直しを<wbr>続ける</span></span></li></ul><div class="grp"><p><span class="ph">と<wbr>いう<wbr>環境を、</span><span class="ph">一つに<wbr>しました。</span></p></div><div class="grp"><p><span class="ph">そして、</span><span class="ph">3ヶ月後には、</span></p><p class="em"><span class="ph"><span class="mk">「これから<wbr>どう<wbr>生きたいか。</span></span><span class="ph"><span class="mk">その<wbr>ために、</span></span><span class="ph"><span class="mk">お金を<wbr>どう<wbr>準備し、</span></span><span class="ph"><span class="mk">どう<wbr>使うか」</span></span></p><p><span class="ph">を<wbr>自分の<wbr>言葉と<wbr>数字で<wbr>まとめた<wbr><span class="nw">My Money Plan</span><wbr>の<wbr>完成を<wbr>目指します。</span></p></div></div></div></section>
+<section class="sec c s5"><figure class="photo t5"><img style="object-position:50% 55%" src="images/15_ichinen.jpg" width="1200" height="800" alt="窓辺の机に置かれた卓上カレンダーと手帳、万年筆" loading="lazy"></figure><div class="in"><h2 class="t"><span class="ph"><span class="ul">もし、</span></span><span class="ph"><span class="ul">このまま<wbr>1年が<wbr>過ぎたら？</span></span></h2><div class="flow"><div class="grp"><p><span class="ph">1年後も、</span><span class="ph">NISAや<wbr>資産形成の<wbr>情報を<wbr>調べているかも<wbr>しれません。</span></p><p><span class="ph">老後の<wbr>お金が<wbr>気に<wbr>なって、</span><span class="ph">旅行ややりたい<wbr>ことを<wbr>先延ばしに<wbr>しているかも<wbr>しれません。</span></p><p><span class="ph">あるいは、</span><span class="ph">特に<wbr>困る<wbr>こともなく、</span><span class="ph">今まで<wbr>ど<wbr>おり過ごし<wbr>ているかも<wbr>しれません。</span></p></div><div class="grp"><p><span class="ph">でも、</span><span class="ph">数年後に<wbr>振り返った<wbr>とき、</span></p><p class="em"><span class="ph"><span class="mk">「あの<wbr>とき、</span></span><span class="ph"><span class="mk">もっと<wbr>早く<wbr>考えておけば<wbr>よかった」</span></span></p><p><span class="ph">そう<wbr>思う<wbr>ことがあるかも<wbr>しれません。</span></p></div><div class="grp"><p><span class="ph">これからの<wbr>人生の<wbr>お金は、</span><span class="ph">誰かが<wbr>代わりに<wbr>準備してくれる<wbr>ものでは<wbr>ありません。</span></p><p><span class="ph">そして、</span><span class="ph">今の<wbr>選択の<wbr>積み重ねが、</span><span class="ph">未来の<wbr>自分の<wbr>暮らしに<wbr>つなが<wbr>っていきます。</span></p></div><div class="grp"><p><span class="ph">だから<wbr>こそ、</span><span class="ph">今、<wbr>一度<wbr>向き合って<wbr>みませんか？</span></p></div><div class="grp"><ul class="ticks"><li><span class="tk" aria-hidden="true"></span><span><span class="ph">NISAの<wbr>積立額を<wbr>見直す</span></span></li><li><span class="tk" aria-hidden="true"></span><span><span class="ph">年金の<wbr>見込みを<wbr>確認する</span></span></li><li><span class="tk" aria-hidden="true"></span><span><span class="ph">旅行や<wbr>叶えたい<wbr>ことの<wbr>予算を<wbr>決める</span></span></li><li><span class="tk" aria-hidden="true"></span><span><span class="ph">将来に<wbr>必要な<wbr>お金を<wbr>確かめる</span></span></li></ul></div><div class="grp"><p><span class="ph">一つ<wbr>ひとつは、</span><span class="ph">小さな<wbr>行動かも<wbr>しれません。</span></p><p><span class="ph">でも、</span><span class="ph">その<wbr>積み重ねが、</span><span class="ph">これからの<wbr>人生の<wbr>選択肢を<wbr>広げていきます。</span></p></div><p class="em"><span class="ph"><span class="mk">お金の<wbr>ために<wbr>人生を<wbr>我慢したり、</span></span><span class="ph"><span class="mk">将来の<wbr>ことを<wbr>考えずに<wbr>使ってしまうの<wbr>ではなく。</span></span></p><div class="grp"><p><span class="ph">自分の<wbr>未来を<wbr>知り、</span><span class="ph">納得して<wbr>選んでいく。</span></p></div><p class="em"><span class="ph"><span class="mk">1年後、</span></span><span class="ph"><span class="mk">「あの<wbr>とき<wbr>始めて<wbr>よかった」と<wbr>思える<wbr>自分へ。</span></span></p><div class="grp"><p><span class="ph">お金の<wbr>不安を<wbr>解消する<wbr>ために、</span><span class="ph">今から<wbr>準備を<wbr>して<wbr>行きませんか。</span></p></div></div></div></section>
+<section class="sec w s2"><div class="in"><figure class="photo t2 pp"><img style="object-position:50% 50%" src="images/16_hiyou.jpg" width="1200" height="800" alt="白い机に並べたワークブック・タブレット・ペン・ノート" loading="lazy"></figure><div class="flow"><div class="pbox" data-nosticky=""><figure class="pban" aria-hidden="true"><img src="images/16_hiyou.jpg" width="1200" height="800" alt="" loading="lazy"></figure><h2 class="ptl"><span class="ph"><span class="ul"><span class="gd">参加費用</span></span></span></h2><h3><span class="ul"><span class="nw">50<sup>+</sup>Money School｜</span><span class="nw">初回モニター特別価格</span></span></h3><p class="psub"><span class="ph">3ヶ月の<wbr>実践講座＋9ヶ月の<wbr><span class="nw">Membership</span></span></p><p class="pn" data-changed="1"><span class="ph">第1期からの<wbr>受講料：<wbr><span class="nw">298,000円（税別）</span><wbr>　<wbr><span class="nw">税込327,800円</span></span></p><div class="pdown"><svg class="parw" aria-hidden="true" viewBox="0 0 52 68"><path d="M16 0h20v32h16L26 66 0 32h16z"></path></svg><p class="poff" data-changed="1"><span class="ph">第1期からの<wbr>受講料より<wbr><span class="nw">53,020円</span><wbr>OFF<wbr>（税込）</span></p></div><p class="pl" data-changed="1"><span class="ph">今回の<wbr>初回モニター<wbr>（第0期）<wbr>募集では、</span></p><p class="pbig" data-nowrap=""><span class="n">249,800</span><span class="yen">円</span><span class="tx">（税別）</span></p><p class="pzei"><span class="nw">税込274,780円</span></p><p class="pde"><span class="ph">で<wbr>ご参加いた<wbr>だけます。</span></p><p class="pdl" data-changed="1"><span class="ph">初回モニター<wbr>（第0期）<wbr>価格での<wbr>お申し込みは、</span><span class="ph"><span class="yl"><span class="nw">2026年12月19日（土）</span><wbr><span class="nw">23:59</span>ま<wbr>でです。</span></span></p><div class="pt"><p><span class="ph">初回モニターでは、</span><span class="ph">受講生の<wbr>ご意見・<wbr>ご感想を<wbr>伺いながら、</span><span class="ph">今後の<wbr>プログラムを<wbr>さらに<wbr>充実させて<wbr>いきたいと<wbr>考えています。</span></p><p><span class="ph">その<wbr>ため、</span><span class="ph">初回参加者には<wbr>特別価格を<wbr>ご用意しました。</span></p></div></div><div class="grp"><p><span class="ph">この<wbr>価格には、</span><span class="ph">全6回の<wbr>実践講座、</span><span class="ph">専用ツール、</span><span class="ph">ワーク教材、</span><span class="ph">学習動画、</span><span class="ph">FP講師の<wbr>サポート、</span><span class="ph">そして<wbr>9ヶ月の<wbr><span class="nw">Membership</span><wbr>が<wbr>含まれます。</span></p></div><p class="em"><span class="ph"><span class="mk">初年度12ヶ月間の<wbr>基本サービスに、</span></span><span class="ph"><span class="mk">追加の<wbr><span class="nw">Membership</span><wbr>月額料金は<wbr>かかりません。</span></span></p><div class="grp"><p><span class="ph">これは、</span><span class="ph">金融知識を<wbr>学ぶだけの<wbr>受講料では<wbr>ありません。</span></p><p class="em"><span class="ph"><span class="mk">これから<wbr>何度も<wbr>訪れる<wbr>人生とお金の<wbr>選択に、</span></span><span class="ph"><span class="mk">自分で<wbr>向き合う<wbr>ための<wbr>力と<wbr>設計図を<wbr>つくる。</span></span><span class="ph"><span class="mk">その<wbr>ための<wbr>学びと<wbr>サポートの<wbr>費用です。</span></span></p></div><div class="grp"><p><span class="ph">もちろん、</span><span class="ph">決して<wbr>小さな<wbr>金額では<wbr>ありません。</span></p><p><span class="ph">だから<wbr>こそ、</span><span class="ph">ご自身の<wbr>生活や<wbr>将来の<wbr>備えに<wbr>無理の<wbr>ない<wbr>範囲で、</span><span class="ph">納得してお<wbr>選びいただきたいと<wbr>思っています。</span></p></div><div class="grp"><p><span class="ph">もし今、</span></p><p><span class="ph">「そろそろ、</span><span class="ph">自分の<wbr>お金と<wbr>人生を<wbr>きちんと<wbr>考えてみたい」</span></p><p><span class="ph">そう<wbr>感じているなら。</span></p><p><span class="ph">その<wbr>気持ちを、</span><span class="ph">具体的な<wbr>行動に<wbr>変える<wbr>機会に<wbr>していただけた<wbr>らうれしいです。</span></p></div><div class="cd" data-cd="" data-nowrap=""><p class="cd-fb">お申し込み締切：2026年12月19日（土）23:59</p><div class="cd-live" hidden=""><p class="cd-h">お申し込み締切まで</p><p class="cd-n"><span class="cd-b"><b data-u="d">00</b><i>日</i></span><span class="cd-b"><b data-u="h">00</b><i>時間</i></span><span class="cd-b"><b data-u="m">00</b><i>分</i></span><span class="cd-b"><b data-u="s">00</b><i>秒</i></span></p></div><p class="cd-end" hidden="">お申し込みの受付は終了しました</p></div><a class="btn" href="#apply"><span><span class="ph">初回モニター価格で<wbr>申し込む</span></span><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"></path></svg></a><div class="pay"><h3><span class="ph"><span class="ul">お支払い方<wbr>法に<wbr>ついて</span></span></h3><p><span class="ph">銀行振込と<wbr>クレジットカード決済を<wbr>ご用意しています。</span></p><p><span class="ph">一括<wbr>払いの<wbr>ほか、</span><span class="ph">分<wbr>割払いも<wbr>お選びいた<wbr>だけます。</span></p><p class="pband"><span class="ph">初回モニター特別価格　<wbr><span class="nw">249,800円</span><wbr><span class="nw">（税込274,780円）</span></span></p><table class="ptbl"><thead><tr><th><span class="ph">お支払い方<wbr>法</span></th><th><span class="ph">1回あたり</span></th><th><span class="ph">お支払い<wbr>総額<wbr>（税込）</span></th></tr></thead><tbody><tr><td data-l="お支払い方法"><span class="nw">銀行振込・一括</span><span class="reco">おすすめ</span></td><td data-l="1回あたり"><span class="nw">274,780円</span></td><td data-l="お支払い総額（税込）"><span class="nw">274,780円</span></td></tr><tr><td data-l="お支払い方法"><span class="ph">銀行振込・2回払い</span></td><td data-l="1回あたり"><span class="nw">137,390円×2回</span></td><td data-l="お支払い総額（税込）"><span class="nw">274,780円</span></td></tr><tr><td data-l="お支払い方法"><span class="ph">銀行振込・3回払い</span></td><td data-l="1回あたり"><span class="p3"><span class="nw">1回目 94,780円</span> <span class="nw">2・3回目 90,000円</span></span></td><td data-l="お支払い総額（税込）"><span class="nw">274,780円</span></td></tr><tr><td data-l="お支払い方法"><span class="nw">クレジットカード・一括</span><span class="reco">おすすめ</span></td><td data-l="1回あたり"><span class="nw">274,780円</span></td><td data-l="お支払い総額（税込）"><span class="nw">274,780円</span></td></tr></tbody></table><p class="pnote"><span class="ph">※表示金額は<wbr>すべて<wbr>税込です。</span><span class="ph">銀行振込の<wbr>分割払いに、</span><span class="ph">手数料は<wbr>かかりません。</span></p><p class="pnote"><span class="ph">※銀行振込の<wbr>振込手数料は<wbr>ご負担ください。</span></p><p class="pnote"><span class="ph">※クレジットカードは<wbr>一括払いです。</span><span class="ph">分<wbr>割払いを<wbr>ご希望の<wbr>場合は、</span><span class="ph">決済の<wbr>後に、</span><span class="ph">ご自身で<wbr>カード会社の<wbr><span class="nw q">「あとから分割」</span><wbr>などを<wbr>ご利用ください。</span></p><p class="pnote"><span class="ph">※分<wbr>割払いは<wbr>講座受講料の<wbr>支払方法であり、</span><span class="ph">3ヶ月の<wbr>講座終了後も、</span><span class="ph">契約で<wbr>定められた<wbr>残額の<wbr>お支払い<wbr>義務は<wbr>継続します。</span></p><p class="pfoot"><span class="ph">初年度12ヶ月間の<wbr>プログラム料金が<wbr>含まれており、</span><span class="ph">4〜12ヶ月目の<wbr>メンバーシップに<wbr>別途月額料金は<wbr>かかりません。</span></p></div><div class="pay"><h3><span class="ph"><span class="ul">2年目以降に<wbr>ついて</span></span></h3><p><span class="ph">2年目以降も<wbr>継続したい方には、</span><span class="ph">任意の<wbr><span class="nw">Membership</span><wbr>を<wbr>ご用意しています。</span></p><p class="em"><span class="ph">年会費<wbr><span class="nw">29,800円（税別）／</span><wbr><span class="nw">税込32,780円</span><wbr><span class="nw">（予定）</span></span></p><p><span class="ph">継続は<wbr>任意です。</span></p></div></div></div></section>
+<section class="sec c s4 pg rev dense"><div class="in"><h2 class="t"><span class="ph"><span class="ul">講座開催<wbr>スケジュール</span></span></h2><figure class="photo t4"><img style="object-position:50% 40%" src="images/17_schedule.jpg" width="1200" height="800" alt="テーブルを囲んでワークシートに書き込みながら話す女性たち" loading="lazy"></figure><div class="flow"><p class="em"><span class="ph"><span class="mk">2027年1月開講｜<span class="nw">全6回</span></span></span></p><table class="tbl"><thead><tr><th><span class="ph">開催日</span></th><th><span class="ph">時間</span></th><th><span class="ph">形式</span></th></tr></thead><tbody><tr><td><span class="ph">第1回｜<wbr><span class="nw">1月9日<span class="wd">（土）</span></span></span></td><td><span class="nw">13:00〜15:00</span></td><td><span class="ph">Zoom</span></td></tr><tr><td><span class="ph">第2回｜<wbr><span class="nw">1月20日<span class="wd">（水）</span></span></span></td><td><span class="nw">20:30〜22:30</span></td><td><span class="ph">Zoom</span></td></tr><tr><td><span class="ph">第3回｜<wbr><span class="nw">2月6日<span class="wd">（土）</span></span></span></td><td><span class="nw">12:00〜14:00</span></td><td><span class="nw rz">リアル会場＋Zoom</span></td></tr><tr><td><span class="ph">第4回｜<wbr><span class="nw">2月17日<span class="wd">（水）</span></span></span></td><td><span class="nw">20:30〜22:30</span></td><td><span class="ph">Zoom</span></td></tr><tr><td><span class="ph">第5回｜<wbr><span class="nw">3月6日<span class="wd">（土）</span></span></span></td><td><span class="nw">13:00〜15:00</span></td><td><span class="ph">Zoom</span></td></tr><tr><td><span class="ph">第6回｜<wbr><span class="nw">3月17日<span class="wd">（水）</span></span></span></td><td><span class="nw">20:30〜22:30</span></td><td><span class="ph">Zoom</span></td></tr></tbody></table><h3 class="sub"><span class="ph">第3回は、</span><span class="ph">特別な<wbr>リアルワークショップ。</span></h3><div class="grp"><p><span class="ph">未来TOP10や<wbr>人生タイムラインを<wbr>作成し、</span><span class="ph">これからの<wbr>人生を<wbr>具体化する<wbr>時間です。</span></p></div><div class="grp"><p><span class="ph">東京都内の<wbr>会場で<wbr>開催予定。</span><span class="ph">遠方の<wbr>方は<wbr>Zoomでも<wbr>ご参加いた<wbr>だけます。</span></p><p><span class="ph"><span class="nw">14:30</span>〜<wbr>お茶会も<wbr>開催します。</span><span class="ph">（任意参加）</span></p></div><p class="small"><span class="ph">※会場の<wbr>詳細や<wbr>交通費・<wbr>飲食費等は、</span><span class="ph">別途ご案内します。</span></p></div></div></section>
+<section class="sec w s1 pg dense"><div class="in"><h2 class="t"><span class="ph"><span class="ul">よく<wbr>ある<wbr>ご質問</span></span></h2><figure class="photo t1"><img style="object-position:45% 30%" src="images/18_faq.jpg" width="1200" height="800" alt="お茶を飲みながら資料を読む女性の手元" loading="lazy"></figure><div class="flow"><div class="faq"><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">投資初心者でも<wbr>参加できますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">はい。</span><span class="ph">NISAや<wbr>投資信託などの<wbr>基本から<wbr>学べます。</span><span class="ph">個別銘柄の<wbr>分析や、</span><span class="ph">難しい<wbr>計算が<wbr>できる<wbr>ことを<wbr>前提と<wbr>していません。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">事前に<wbr>学習動画を<wbr>見る<wbr>必要は<wbr>ありますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">必須では<wbr>ありません。</span><span class="ph">講座でも<wbr>基本を<wbr>説明します。</span><span class="ph">動画は<wbr>復習や<wbr>詳しい<wbr>知識を<wbr>学びたい<wbr>ときに<wbr>活用できます。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">仕事や<wbr>家事で<wbr>忙しくても<wbr>参加できますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">講座アーカイブを<wbr>ご用意しています。</span><span class="ph">ただし、</span><span class="ph"><span class="nw">My Money Plan</span><wbr>を<wbr>つくる<wbr>ためには、</span><span class="ph">資産情報の<wbr>準備や<wbr>宿題に<wbr>取り組む<wbr>時間も<wbr>必要です。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">FP講師に<wbr>個別相談で<wbr>きますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">講座内容、</span><span class="ph">制度の<wbr>基本、</span><span class="ph">家計や<wbr>将来の<wbr>生活設計、</span><span class="ph">ツールの<wbr>活用などに<wbr>ついて<wbr>質問・相談できる<wbr>サポートを<wbr>設けています。</span></p><p><span class="ph">個別の<wbr>ご相談は、</span><span class="ph">アプリの<wbr>個別チャットを<wbr>用い、</span><span class="ph">動画・音声・<wbr>テキストなどで、</span><span class="ph">回数無制限で<wbr>対応します。</span><span class="ph">必要な<wbr>場合は、</span><span class="ph">Zoomも<wbr>活用します。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">自分の<wbr>資産額を、</span><span class="ph">ほかの<wbr>参加者に<wbr>見せる<wbr>必要は<wbr>ありますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">いいえ。</span><span class="ph">資産額や<wbr>家庭の<wbr>事情を、</span><span class="ph">ほかの<wbr>受講生に<wbr>公開する<wbr>必要は<wbr>ありません。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">第3回の<wbr>リアル講座に<wbr>参加できない<wbr>場合は？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">Zoomで<wbr>受講できます。</span><span class="ph">同じ<wbr>ワーク教材を<wbr>使って<wbr>進められます。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">3ヶ月の<wbr>講座が<wbr>終わった<wbr>後は？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph"><span class="nw">4〜12ヶ月目</span>の<wbr><span class="nw">Membership</span><wbr>が<wbr>含まれています。</span><span class="ph">動画・情報<wbr>コンテンツ・質問<wbr>サポート・交流<wbr>ROOMなどを<wbr>活用しながら、</span><span class="ph">学びと<wbr>実践を<wbr>続けられます。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">2年目以降も<wbr>費用が<wbr>かかりますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">2年目以降の<wbr><span class="nw">Membership</span><wbr>は<wbr>任意継続です。</span><span class="ph">年会費は<wbr><span class="nw">29,800円（税別）</span>、</span><span class="ph"><span class="nw">税込32,780円</span><wbr>を<wbr>予定しております。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">必ず<wbr><span class="nw">My Money Plan</span><wbr>を<wbr>完成できますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">完成を<wbr>目指して、</span><span class="ph">講義・ワーク・<wbr>ツール・サポートを<wbr>ご用意しています。</span><span class="ph">情報の<wbr>準備や<wbr>取り組み状況に<wbr>よって、</span><span class="ph">完成までに<wbr>必要な<wbr>時間には<wbr>個人差が<wbr>あります。</span></p></div></div></details><details open=""><summary><span class="q" aria-hidden="true"><span class="ph">Q</span></span><h3><span class="ph">将来の<wbr>お金の<wbr>不安は<wbr>なくなりますか？</span></h3><span class="pm" aria-hidden="true"></span></summary><div class="ans"><span class="a" aria-hidden="true"><span class="ph">A</span></span><div class="at"><p><span class="ph">将来を<wbr>完全に<wbr>予測したり、</span><span class="ph">運用成果を<wbr>保証したりする<wbr>ことは<wbr>できません。</span><span class="ph">自分の<wbr>数字で<wbr>課題と<wbr>選択肢を<wbr>確認し、</span><span class="ph">納得できる<wbr>計画を<wbr>考えられる<wbr>ようになる<wbr>ことを<wbr>目指します。</span></p></div></div></details></div></div></div></section>
+<section class="sec c"><div class="in"><h2 class="t"><span class="ph"><span class="ul">講師プロフィール</span></span></h2><div class="flow"><div class="frame"><span class="tag"><span class="ph">準備中</span></span><p><span class="ph">FP講師の<wbr>写真・氏名・<wbr>保有資格・<wbr>実務経験・<wbr>専門分野を<wbr>掲載</span></p></div><div class="frame"><span class="tag"><span class="ph">準備中</span></span><p><span class="ph">担当する講義・<wbr>質問サポートの<wbr>範囲を<wbr>紹介</span></p></div><p class="small"><span class="ph">※実際に<wbr>確認できる<wbr>経歴・資格・<wbr>実績のみを<wbr>掲載します。</span></p></div></div></section>
+<section class="sec w s6"><figure class="kaisou"><picture><source media="(min-width:900px)" srcset="images/20_kaisou_pc.jpg" width="1800" height="760"><img src="images/20_kaisou_sp.jpg" width="900" height="1150" alt="これからの人生で思い描ける、いろいろな場面。孫と過ごす公園、友人とのお茶、山登り、庭仕事、朝日を見る夫婦。" loading="lazy"></picture></figure><div class="in"><h2 class="t"><span class="ph"><span class="ul">最後に、</span></span><span class="ph"><span class="ul">お伝えしたい<wbr>こと。</span></span></h2><div class="flow"><div class="grp"><p><span class="ph">これからの<wbr>人生、</span><span class="ph">何に<wbr>お金を<wbr>使いたいですか？</span></p><p><span class="ph">どんな<wbr>暮らしを<wbr>したいですか？</span></p><p><span class="ph">そして、</span><span class="ph">その<wbr>ために<wbr>今、</span><span class="ph">何を<wbr>していますか？</span></p></div><div class="grp"><p><span class="ph">すべての<wbr>答えを、</span><span class="ph">今<wbr>持っている<wbr>必要は<wbr>ありません。</span></p></div><div class="grp"><p><span class="ph"><span class="nw">50<sup>+</sup>Money School</span>で、</span><span class="ph">一つ<wbr>ずつ<wbr>整理してい<wbr>きましょう。</span></p></div><p class="em"><span class="ph"><span class="mk">お金で<wbr>失敗しないための<wbr>備えと、</span></span><span class="ph"><span class="mk">人生で<wbr>後悔しないための<wbr>選択。</span></span></p><div class="grp"><p><span class="ph">その<wbr>両方を<wbr>考えながら、</span><span class="ph">これからの<wbr>人生を<wbr>もっと<wbr>自由に、</span><span class="ph">もっと<wbr>自分らしく。</span></p></div><h2 class="t big"><span class="ph"><span class="ul">未来を<wbr>描き、</span></span><span class="ph"><span class="ul">今を<wbr>選ぶ。</span></span></h2><div class="grp"><p><span class="ph">あなた<wbr>専用の<wbr> <wbr><span class="nw">My Money Plan</span> を、</span><span class="ph">一緒に<wbr>つくってい<wbr>きませんか？</span></p></div></div></div></section>
+<section class="sec navy apply s3" id="apply" data-nosticky=""><div class="in"><h2 class="t"><span class="ph"><span class="ul"><span class="nw">50<sup>+</sup>Money School｜</span><wbr>初回<wbr>モニター募集</span></span></h2><figure class="photo t3"><img style="object-position:25% 35%" src="images/21_boshu.jpg" width="1200" height="800" alt="自宅の机でノートパソコンに向かい、穏やかに微笑む女性" loading="lazy"></figure><p class="am"><span class="ph">3ヶ月の<wbr>実践講座＋9ヶ月の<wbr><span class="nw">Membership</span></span></p><p class="aq" data-changed="1"><span class="ph">第1期からの<wbr>受講料：<wbr><span class="nw">税込327,800円</span></span></p><p class="asub"><span class="ph">初回モニター特別価格</span></p><p class="abig" data-nowrap=""><span class="n">249,800</span><span class="yen">円</span><span class="tx">（税別）</span></p><p class="azei"><span class="nw">税込274,780円</span></p><p class="aoff" data-changed="1"><span class="ph">第1期からの<wbr>受講料より<wbr><span class="nw">53,020円OFF。</span></span></p><dl><div class="row" data-changed="1"><dt><span class="ph">募集期間<span class="vh">：</span></span></dt><dd><span class="ph"><span class="nw">2026年12月19日（土）</span><wbr><span class="nw">23:59</span>まで</span></dd></div><div class="row"><dt><span class="ph">開<wbr>校日<span class="vh">：</span></span></dt><dd><span class="nw">2027年1月9日（土）〜</span></dd></div><div class="row"><dt><span class="ph">講座<span class="vh">：</span></span></dt><dd><span class="ph">全3<wbr>ヶ月間／全6回<wbr>（Zoom5回＋<wbr><span class="nw">リアル・Zoom</span><wbr>同時開催1回）</span></dd></div><div class="row"><dt><span class="ph">メンバーシップ<span class="vh">：</span></span></dt><dd><span class="ph">全9<wbr>ヶ月間／<wbr>4ヶ月目〜12ヶ月目</span></dd></div><div class="row"><dt><span class="ph">お支払い<wbr>方<wbr>法<span class="vh">：</span></span></dt><dd><span class="ph">銀行振込・<wbr>クレジットカード<span class="nw">決済／</span><wbr><span class="nw">一括・分割払い</span></span></dd></div></dl><div class="cd" data-cd="" data-nowrap=""><p class="cd-fb">お申し込み締切：2026年12月19日（土）23:59</p><div class="cd-live" hidden=""><p class="cd-h">お申し込み締切まで</p><p class="cd-n"><span class="cd-b"><b data-u="d">00</b><i>日</i></span><span class="cd-b"><b data-u="h">00</b><i>時間</i></span><span class="cd-b"><b data-u="m">00</b><i>分</i></span><span class="cd-b"><b data-u="s">00</b><i>秒</i></span></p></div><p class="cd-end" hidden="">お申し込みの受付は終了しました</p></div><a class="btn" href="#" data-todo="申し込みの行き先"><span><span class="ph"><span class="nw">50<sup>+</sup>Money School</span><wbr>に<wbr>申し込む</span></span><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"></path></svg></a><div class="notes"><p><span class="ph">※お申し込み前に、</span><span class="ph">提供内容・<wbr>支払総額・<wbr>分割条件・<wbr>キャンセル・<wbr>返金規定・<wbr>特定商取引法に<wbr>基づく<wbr>表記を<wbr>ご確認ください。</span></p><p><span class="ph">※本スクールは<wbr>金融教育と<wbr>ライフプラン設計を<wbr>目的と<wbr>しています。</span><span class="ph">個別の<wbr>金融商品売買判断、</span><span class="ph">個別税務・<wbr>法律相談は<wbr>対象外です。</span><span class="ph">シミュレーションは<wbr>将来の<wbr>運用成果や<wbr>資産残高を<wbr>保証する<wbr>ものでは<wbr>ありません。</span></p></div></div></section>
+<footer class="ft"><div class="in"><ul><li><a href="https://school.50plusmoney.com/terms/" target="_blank" rel="noopener">受講規約</a></li><li><a href="https://school.50plusmoney.com/privacy/" target="_blank" rel="noopener">プライバシーポリシー</a></li><li><a href="https://school.50plusmoney.com/tokushoho/" target="_blank" rel="noopener">特定商取引法に基づく表記</a></li></ul><p class="cr"><span class="ph">© 50+Money School All Rights Reserved.</span></p></div></footer>
+<div class="sticky" id="sticky"><a class="btn" href="#apply"><span><span class="ph">初回モニター価格で<wbr>申し込む</span></span><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10244A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"></path></svg></a></div>
+<div class="ask" id="ask"><a class="ask-b" href="https://line.me/R/ti/p/%40381aptxw" target="_blank" rel="noopener"><span class="ask-ic" aria-hidden="true"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3.5c-5 0-9 3.2-9 7.2 0 2.5 1.6 4.7 4 6-.1.7-.5 2.1-.6 2.6-.1.4.3.6.6.4.5-.3 2.7-1.8 3.6-2.5.4.1.9.1 1.4.1 5 0 9-3.2 9-7.2S17 3.5 12 3.5z"></path></svg></span><span class="ask-lb"><span class="ph">LINE</span></span><span><span class="ph">ご質問は<wbr>こちらから</span></span></a><button class="ask-x" type="button" aria-label="閉じる" title="閉じる"><svg aria-hidden="true" viewBox="0 0 12 12"><path d="M2 2l8 8M10 2l-8 8"></path></svg></button><button class="ask-o" type="button" aria-label="質問のボタンを開く" title="質問のボタンを開く" aria-expanded="false" hidden=""><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3.5c-5 0-9 3.2-9 7.2 0 2.5 1.6 4.7 4 6-.1.7-.5 2.1-.6 2.6-.1.4.3.6.6.4.5-.3 2.7-1.8 3.6-2.5.4.1.9.1 1.4.1 5 0 9-3.2 9-7.2S17 3.5 12 3.5z"></path></svg></button></div>
+</div>
+<script>
+(function(){
+  var root=document.querySelector('.sl');
+  var bar=document.getElementById('sticky');
+  function setBar(on){
+    if(!root){return;}
+    if(on){root.style.setProperty('--bar-h',(bar?bar.offsetHeight:84)+'px');root.classList.add('bar');}else{root.classList.remove('bar');}
+  }
+  if(bar&&('IntersectionObserver' in window)){
+    var seen=[];
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        var i=seen.indexOf(e.target);
+        if(e.isIntersecting){if(i<0){seen.push(e.target);}}else if(i>=0){seen.splice(i,1);}
+      });
+      if(seen.length===0){bar.classList.add('on');}else{bar.classList.remove('on');}
+      setBar(bar.classList.contains('on')&&getComputedStyle(bar).display!=='none');
+    },{threshold:0});
+    Array.prototype.forEach.call(document.querySelectorAll('[data-nosticky]'),function(el){io.observe(el);});
+  }
+})();
+(function(){
+  /* 質問のボタン：×で小さな丸に畳む。丸を押すと元のボタンに開く。畳んだ・開いたは、このページを開いている間だけ覚える（覚えられない時は覚えないだけ） */
+  var ask=document.getElementById('ask');
+  if(!ask){return;}
+  var KEY='slAskMin';
+  var full=ask.querySelector('.ask-b'),x=ask.querySelector('.ask-x'),dot=ask.querySelector('.ask-o');
+  function show(min){
+    if(full){full.hidden=min;}
+    if(x){x.hidden=min;}
+    if(dot){dot.hidden=!min;dot.setAttribute('aria-expanded','false');}
+  }
+  function save(min){try{if(window.sessionStorage){if(min){sessionStorage.setItem(KEY,'1');}else{sessionStorage.removeItem(KEY);}}}catch(e){}}
+  var min=false;
+  try{if(window.sessionStorage&&sessionStorage.getItem(KEY)==='1'){min=true;}}catch(e){}
+  show(min);
+  if(x){x.addEventListener('click',function(){show(true);save(true);if(dot){dot.focus();}});}
+  if(dot){dot.addEventListener('click',function(){show(false);save(false);var a=full&&full.focus?full:null;if(a){a.focus();}});}
+  if(full){full.addEventListener('click',function(ev){if(full.getAttribute('href')==='#'){ev.preventDefault();}});}
+})();
+(function(){
+  /* 申し込み締切までのカウントダウン（日本時間 2026年12月19日 23:59:59）。動かない時は、最初の「お申し込み締切：…」の行が見えたまま */
+  var DEADLINE=new Date('2026-12-19T23:59:59+09:00').getTime();
+  var boxes=document.querySelectorAll('[data-cd]');
+  if(!boxes.length){return;}
+  function pad(n){return n<10?'0'+n:String(n);}
+  function tick(){
+    var left=Math.floor((DEADLINE-Date.now())/1000);
+    Array.prototype.forEach.call(boxes,function(b){
+      var fb=b.querySelector('.cd-fb'),live=b.querySelector('.cd-live'),end=b.querySelector('.cd-end');
+      if(left<=0){
+        if(fb){fb.hidden=true;}if(live){live.hidden=true;}if(end){end.hidden=false;}
+        return;
+      }
+      var d=Math.floor(left/86400),h=Math.floor(left%86400/3600),m=Math.floor(left%3600/60),s=left%60;
+      var v={d:pad(d),h:pad(h),m:pad(m),s:pad(s)};
+      Array.prototype.forEach.call(b.querySelectorAll('[data-u]'),function(el){el.textContent=v[el.getAttribute('data-u')];});
+      if(fb){fb.hidden=true;}if(end){end.hidden=true;}if(live){live.hidden=false;}
+    });
+  }
+  tick();
+  setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>
